@@ -2,6 +2,8 @@
 
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
+alias netappuse='lsof -P -i -n'
+alias b='back'
 alias cl='clear'
 alias :q='exit'
 alias vm='mv'
