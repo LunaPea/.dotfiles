@@ -107,7 +107,7 @@ XF86Calculator
 
 # show Rofi shortcuts
 super + alt + F2
-	~/.scripts/rofi-help
+	~/.scripts/rofi/rofi-help
 
 
 # show all shortcuts
