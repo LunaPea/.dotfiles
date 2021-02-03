@@ -24,7 +24,7 @@ control + alt + s
 	urxvt -e ssh michal@192.168.1.50
 
 super + F12
-  sudo pm-suspend
+	systemctl suspend
 
 super + p
  xclip -selection c ~/Documents/creeperFarm
