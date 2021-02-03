@@ -1,0 +1,98 @@
+!--------------------xdefauls
+! URxvt.font: xft:JetBrains Mono:size=12:antialias=true
+URxvt.font: xft:JetBrainsMono Nerd Font Mono:style=Regular:size=12:antialias=true
+urxvt.boldFont: xft:JetBrainsMono Nerd Font Mono:style=Bold:size=12:antialias=true
+urxvt.italicFont: xft:JetBrainsMono Nerd Font Mono:style=Italic:size=12:antialias=true
+urxvt.boldItalicFont: xft:JetBrainsMono Nerd Font Mono:style=Bold Italic:size=12:antialias=true
+urxvt*termName: rxvt
+urxvt*matcher.button: 1
+urxvt.transparent: false
+Xft*dpi: 96
+Xft*antialias: true
+Xft*hinting: true
+Xft*hintstyle: hintfull
+Xft*rgba: rgb
+URxvt*fading: 0
+URxvt*tintColor: #ffffff
+URxvt*shading: 0
+URxvt*inheritPixmap: False
+
+URxvt.internalBorder: 0
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+URxvt.geometry: 92x24
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: true
+URxvt.saveline: 2048
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.urgentOnBell: true
+URxvt.depth: 24
+URxvt.iso14755: false
+
+rofi.font:	JetBrainsMono Nerd Font 12
+
+! special
+*.foreground:   #d0d0d0
+*.background:   #121212
+*.cursorColor:  #55bcce
+
+! black
+*.color0:       #48483e
+*.color8:       #76715e
+
+! red
+*.color1:       #dc2566
+*.color9:       #fa2772
+
+! green
+*.color2:       #8fc029
+*.color10:      #a7e22e
+
+! yellow
+*.color3:       #d4c96e
+*.color11:      #e7db75
+
+! blue
+*.color4:       #55bcce
+*.color12:      #66d9ee
+
+! magenta
+*.color5:       #9358fe
+*.color13:      #ae82ff
+
+! cyan
+*.color6:       #56b7a5
+*.color14:      #66efd5
+
+! white
+*.color7:       #acada1
+*.color15:      #cfd0c2
+
+
+!! Copy Paste & Other Extensions
+URxvt.perl-ext-common: default,resize-font,clipboard,url-select,keyboard-select
+URxvt.copyCommand: xclip -i -selection clipboard
+URxvt.pasteCommand: xclip -o -selection clipboard
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keysym.M-s: perl:keyboard-select:search
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.urlLauncher: vivaldi-stable
+URxvt.underlineURLs: true
+URxvt.urlButton: 1
+URxvt.resize-font.smaller: C-j
+URxvt.resize-font.bigger: C-k
+
+!! Common Keybinds for Navigations
+URxvt.keysym.Shift-Up: command:\033]720;1\007
+URxvt.keysym.Shift-Down: command:\033]721;1\007
+URxvt.keysym.Control-Up: \033[1;5A
+URxvt.keysym.Control-Down: \033[1;5B
+URxvt.keysym.Control-Right: \033[1;5C
+URxvt.keysym.Control-Left: \033[1;5D
+
+
+
