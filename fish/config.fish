@@ -1,5 +1,7 @@
 ; # vim:ft=dosini
 
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+
 alias cl='clear'
 alias :q='exit'
 alias vm='mv'
