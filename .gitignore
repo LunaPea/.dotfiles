@@ -1,3 +1,4 @@
 nvim/undodir/*
 nvim/bundle/*
 ranger/plugins/*
+ranger/__pycache__
