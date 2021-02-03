@@ -1,0 +1,6 @@
+game:
+  exe: /mnt/files/Games/Baba Is You/Baba Is You.exe
+system:
+  aco: true
+wine:
+  dxvk: false

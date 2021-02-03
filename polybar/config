@@ -1,0 +1,343 @@
+; vim: ft=dosini
+; go to https://github.com/jaagr/polybar
+; The README contains alot of information
+
+[colors]
+black = ${xrdb:color0:#1d2021}
+darkred = ${xrdb:color1:#cc241d}
+darkgreen = ${xrdb:color2:#98971a}
+darkyellow = ${xrdb:color3:#d79921}
+darkblue = ${xrdb:color4:#458588}
+darkmagenta = ${xrdb:color5:#b16286}
+darkcyan = ${xrdb:color6:#689d6a}
+lightgray = ${xrdb:color7:#a89984}
+gray = ${xrdb:color8:#928374}
+red = ${xrdb:color9:#fb4934}
+green = ${xrdb:color10:#b8bb26}
+yellow = ${xrdb:color11:#fabd2f}
+blue = ${xrdb:color12:#83a598}
+magenta = ${xrdb:color13:#d3869b}
+cyan = ${xrdb:color14:#8ec07c}
+white = ${xrdb:color15:#ebdbb2}
+background = ${xrdb:color256:#121212}
+foreground = ${xrdb:color257:#F8F8F8}
+
+[bar/default]
+monitor = DisplayPort-2
+enable-ipc = true
+width = 100%
+height = 20
+fixed-center = false
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 3
+line-color = {$xrdb:red}
+
+border-size = 0
+border-color = ${colors.white}
+
+padding-left = 0
+padding-right = 1
+
+module-margin-left = 1
+module-margin-right = 1
+
+font-0 = JetBrainsMono Nerd Font:size=10:antialias=true:2
+font-1 = Noto Sans CJK JP:size=9:antialias=true:0
+
+modules-left = bspwm xwindow 
+modules-right = pulseaudio-control ping_ms kdeconnect notification-xkcd mnt date BL
+
+tray-position = right
+tray-padding = 0
+
+wm-restack = bspwm
+
+scroll-up = bspwm-desknext
+scroll-down = bspwm-deskprev
+
+[bar/defaultext]
+monitor = DVI-D-0
+enable-ipc = true
+width = 100%
+height = 17
+fixed-center = false
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 3
+line-color = {$xrdb:red}
+
+border-size = 0
+border-color = ${colors.white}
+
+padding-left = 0
+padding-right = 1
+
+module-margin-left = 1
+module-margin-right = 1
+
+font-0 = JetBrainsMono Nerd Font:size=10:antialias=true:2
+font-1 = Noto Sans CJK JP:size=9:antialias=true:0
+
+modules-left = bspwm
+modules-right = pulseaudio-control ping_ms notification-xkcd mnt date BL
+
+tray-position = right
+tray-padding = 0
+
+wm-restack = bspwm
+
+scroll-up = bspwm-desknext
+scroll-down = bspwm-deskprev
+
+
+; custom scripts
+
+[module/player-moc]
+type = custom/script
+exec = ~/.scripts/player-moc.sh
+interval = 1
+click-left = mocp -f &
+click-right = mocp -r &
+click-middle = mocp -G &
+
+[module/notification-xkcd]
+type = custom/script
+exec = ~/.scripts/notification-xkcd.py
+click-left = ~/.scripts/notification-xkcd.py read && xdg-open https://xkcd.com/
+interval = 60
+
+[module/pulseaudio-control]
+type = custom/script
+tail = true
+label-foreground = ${colors.foreground}
+
+exec = pulseaudio-control --icons-volume " , " --icon-muted " " --sink-nicknames-from "device.description" --sink-nickname "alsa_output.pci-0000_00_1b.0.analog-stereo:  Speakers" listen
+click-right = exec pavucontrol &
+click-left = pulseaudio-control togmute
+click-middle = pulseaudio-control --sink-blacklist "alsa_output.pci-0000_01_00.1.hdmi-stereo-extra2" next-sink
+scroll-up = pulseaudio-control --volume-max 130 up
+scroll-down = pulseaudio-control --volume-max 130 down
+
+[module/kdeconnect]
+type = custom/script
+exec = ~/.scripts/polybar-kdeconnect
+internal = 10
+
+[module/perc]
+type = custom/script
+exec = ~/.scripts/bat-level -p
+click-left = ~/.scripts/bat-level -t
+interval = 30
+
+[module/mnt]
+type = custom/script
+exec = ~/.scripts/polybar-mnt
+
+[module/BL]
+type = custom/script
+exec = ~/.scripts/polybar-bluetooth-yesorno
+click-left = ~/.scripts/bluetooth-connect
+
+[module/VOL]
+type = custom/script
+exec = echo VOL
+click-left = ~/.scripts/mocp -c G &
+
+[module/ping_ms]
+type = custom/script
+exec = "ping -qc1 google.com 2>&1 | awk -F'/' 'END{ print (/^rtt/? $5" ms":"F") }'"
+interval = 1
+
+
+
+[module/xwindow]
+type = internal/xwindow
+label = %title:0:100:...%
+format-foreground = ${colors.blue}
+
+[module/xkeyboard]
+type = internal/xkeyboard
+blacklist-0 = num lock
+
+format-prefix = " "
+format-prefix-foreground = ${colors.gray}
+format-prefix-underline = ${colors.darkmagenta}
+
+label-layout = %layout%
+label-layout-underline = ${colors.darkmagenta}
+
+label-indicator-padding = 2
+label-indicator-margin = 1
+label-indicator-background = ${colors.darkmagenta}
+label-indicator-underline = ${colors.darkmagenta}
+
+[module/bspwm]
+type = internal/bspwm
+
+ws-icon-0 = firefox;
+ws-icon-1 = URxvt;
+ws-icon-2 = vlc;嗢
+ws-icon-3 = factorio;
+ws-icon-4 = Steam;
+ws-icon-5 = qBittorrent;
+ws-icon-6 = Pavucontrol;墳
+ws-icon-7 = jetbrains-studio;
+ws-icon-8 = jetbrains-idea-ce;
+ws-icon-9 = Dwarf_Fortress;
+ws-icon-10 = Lutris;
+ws-icon-11 = scrcpy;
+ws-icon-12 = Microsoft Teams - Preview;
+ws-icon-13 = org-tlauncher-tlauncher-rmo-Tla;
+ws-icon-14 = Minecraft* 1.16.4;
+ws-icon-15 = vim;
+ws-icon-16 = URxvt firefox;
+ws-icon-17 = Microsoft Teams - Preview firef;
+ws-icon-18 = Anki;﬷
+ws-icon-19 = ;
+ws-icon-default = 
+
+label-unfocused = %icon% 
+label-visible = %icon% 
+label-urgent = %icon%!
+label-occupied = %icon%
+label-occupied-foreground = ${colors.blue}
+
+label-focused = %icon% 
+label-focused-foreground = ${colors.green}
+label-focused-padding = 1
+
+label-occupied-padding = 1
+
+label-urgent-background = ${colors.red}
+label-urgent-padding = 1
+
+label-empty = %icon%
+label-empty-foreground = ${colors.lightgray}
+label-empty-padding = 1
+
+[module/mpd]
+type = internal/mpd
+format-online = <label-song>  <label-time>
+
+click-left = $TERMINAL -e ncmpcpp
+click-right = mpc toggle
+
+label-song =  %artist% - %title%
+label-song-maxlen = 70
+label-song-ellipsis = true
+
+format-paused-foreground = ${colors.gray}
+
+[module/xbacklight]
+type = internal/xbacklight
+
+format = <label> <bar>
+label = ﯧ
+
+bar-width = 10
+bar-indicator = |
+bar-indicator-foreground = #ff
+bar-indicator-font = 2
+bar-fill = ─
+bar-fill-font = 2
+bar-fill-foreground = #9f78e1
+bar-empty = ─
+bar-empty-font = 2
+bar-empty-foreground = ${colors.gray}
+
+[module/wlan]
+type = internal/network
+interface = wlp2s0
+interval = 3.0
+
+format-connected = 直 <label-connected>
+format-connected-underline = ${colors.background}
+label-connected = %essid%
+
+;format-disconnected =
+format-disconnected = <label-disconnected>
+format-disconnected-underline = ${self.format-connected-underline}
+;label-disconnected = %ifname% disconnected
+label-disconnected = 睊no wifi
+label-disconnected-foreground = ${colors.gray}
+
+; <ramp-signal>
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
+ramp-signal-foreground = ${colors.gray}
+
+[module/date]
+type = internal/date
+interval = 60
+
+date = %b %d,
+time = "%I:%M%p"
+
+format-prefix =
+format-prefix-foreground = ${colors.gray}
+format-underline = ${colors.background}
+
+label = %date% %time%
+
+[module/pulseaudio]
+type = internal/pulseaudio
+
+format-volume = <label-volume> <bar-volume>
+label-volume = %percentage%%
+label-volume-foreground = ${colors.foreground}
+
+label-muted = muted
+label-muted-foreground = ${colors.foreground}
+
+bar-volume-width = 10
+bar-volume-foreground-0 = #55aa55
+bar-volume-foreground-1 = #55aa55
+bar-volume-foreground-2 = #55aa55
+bar-volume-foreground-3 = #55aa55
+bar-volume-foreground-4 = #55aa55
+bar-volume-foreground-5 = #f5a70a
+bar-volume-foreground-6 = #ff5555
+bar-volume-gradient = false
+bar-volume-indicator = –
+
+bar-volume-indicator-font = 2
+bar-volume-fill = ─
+bar-volume-fill-font = 2
+bar-volume-empty = ─
+bar-volume-empty-font = 2
+bar-volume-empty-foreground = ${colors.foreground}
+
+[module/powermenu]
+type = custom/menu
+
+format-spacing = 1
+
+label-open = 
+label-open-foreground = ${colors.darkmagenta}
+label-close =  cancel
+label-close-foreground = ${colors.darkmagenta}
+label-separator = |
+label-separator-foreground = ${colors.gray}
+
+menu-0-0 = reboot
+menu-0-0-exec = menu-open-1
+menu-0-1 = power off
+menu-0-1-exec = menu-open-2
+
+menu-1-0 = cancel
+menu-1-0-exec = menu-open-0
+menu-1-1 = reboot
+menu-1-1-exec = sudo reboot
+
+menu-2-0 = power off
+menu-2-0-exec = sudo poweroff
+menu-2-1 = cancel
+menu-2-1-exec = menu-open-0

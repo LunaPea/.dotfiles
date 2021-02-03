@@ -1,0 +1,124 @@
+<project version="4">
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AreWeThereYet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$USER_HOME$/.ideavimrc" />
+      <option value="$PROJECT_DIR$/src/main/java/AreWeThereYet.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Part02_06.AreWeThereYet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="part02-Part02_06.AreWeThereYet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Part02_06.AreWeThereYet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="part02-Part02_06.AreWeThereYet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Part02_06.AreWeThereYet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="part02-Part02_06.AreWeThereYet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Part02_06.AreWeThereYet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="part02-Part02_06.AreWeThereYet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2603939" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Learn" order="4" />
+      <window_info id="Pull Requests" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Build" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32798165" />
+      <window_info anchor="bottom" id="Find" order="3" />
+      <window_info anchor="bottom" id="Run" order="4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Problems View" order="6" weight="0.32919255" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="TMC Test Results" order="10" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Services" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="TMC Project List" order="0" />
+      <window_info anchor="right" id="Maven" order="1" />
+    </layout>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1345" y="434" key="#Vim_Emulation" timestamp="1610718120787">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1345" y="434" key="#Vim_Emulation/0.0.1920.1080@0.0.1920.1080" timestamp="1610718120787" />
+    <state x="1226" y="321" key="FileChooserDialogImpl" timestamp="1610717964590">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1226" y="321" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1610717964590" />
+    <state x="1101" y="253" width="672" height="678" key="search.everywhere.popup" timestamp="1610718694331">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1101" y="253" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1610718694331" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/.ideavimrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AreWeThereYet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

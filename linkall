@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 ln -s ~/.dotfiles/.bashrc ~/
-ln -s ~/.dotfiles/.vim ~/
 ln -s ~/.dotfiles/.xinitrc ~/
 ln -s ~/.dotfiles/.Xdefaults ~/
 ln -s ~/.dotfiles/.ideavimrc ~/
@@ -19,3 +18,5 @@ ln -s ~/.dotfiles/nvim ~/.config/
 ln -s ~/.dotfiles/ranger ~/.config/
 ln -s ~/.dotfiles/lutris ~/.config/
 ln -s ~/.dotfiles/rofi ~/.config/
+ln -s ~/.dotfiles/kdeconnect ~/.config/
+ln -s ~/.dotfiles/screengrab ~/.config/

@@ -1,0 +1,6 @@
+game:
+  exe: /mnt/files/Games/Mirror's Edge/Binaries/MirrorsEdge.exe
+system:
+  aco: true
+wine:
+  esync: true

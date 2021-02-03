@@ -1,0 +1,193 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$SelectAll">
+      <i c="2" l="1610557132007" />
+    </e>
+    <e n="$Undo">
+      <i c="17" l="1610716056247" />
+    </e>
+    <e n="ActivateTMCTestResultsToolWindow">
+      <i c="1" l="1610557482075" />
+    </e>
+    <e n="BraceOrQuoteOut">
+      <i c="2" l="1610719124818" />
+    </e>
+    <e n="ChooseRunConfiguration">
+      <i c="3" l="1610719176592" />
+    </e>
+    <e n="Download ALL Exercises">
+      <i c="1" l="1610715794877" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="831" l="1611871210394" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="2" l="1610638763670" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="226" l="1610719146627" />
+    </e>
+    <e n="EditorCopy">
+      <i c="19" l="1610716051274" />
+    </e>
+    <e n="EditorCut">
+      <i c="1" l="1611871207123" />
+    </e>
+    <e n="EditorDown">
+      <i c="250" l="1610714871142" />
+    </e>
+    <e n="EditorEnter">
+      <i c="171" l="1610716229632" />
+    </e>
+    <e n="EditorEscape">
+      <i c="22" l="1610716188382" />
+    </e>
+    <e n="EditorLeft">
+      <i c="932" l="1610716059535" />
+    </e>
+    <e n="EditorLeftWithSelection">
+      <i c="54" l="1610646737120" />
+    </e>
+    <e n="EditorPageDown">
+      <i c="1" l="1610645994079" />
+    </e>
+    <e n="EditorPageUp">
+      <i c="2" l="1610661293283" />
+    </e>
+    <e n="EditorPaste">
+      <i c="87" l="1611871219222" />
+    </e>
+    <e n="EditorRight">
+      <i c="1196" l="1610716091749" />
+    </e>
+    <e n="EditorRightWithSelection">
+      <i c="1" l="1610646737519" />
+    </e>
+    <e n="EditorTab">
+      <i c="35" l="1610719066878" />
+    </e>
+    <e n="EditorUp">
+      <i c="200" l="1610714870659" />
+    </e>
+    <e n="EditorUpWithSelection">
+      <i c="11" l="1610646735199" />
+    </e>
+    <e n="ExpandLiveTemplateByTab">
+      <i c="2" l="1610713355406" />
+    </e>
+    <e n="GotoFile">
+      <i c="1" l="1610659514581" />
+    </e>
+    <e n="IdeaVim.ReloadVimRc.reload">
+      <i c="6" l="1610718149101" />
+    </e>
+    <e n="NewProject">
+      <i c="1" l="1611871138824" />
+    </e>
+    <e n="OpenFile">
+      <i c="3" l="1610717948693" />
+    </e>
+    <e n="ProblemsView.QuickFixes">
+      <i c="1" l="1610718157431" />
+    </e>
+    <e n="ReformatCode">
+      <i c="1" l="1610713330714" />
+    </e>
+    <e n="Replace">
+      <i c="2" l="1610647421632" />
+    </e>
+    <e n="Run Project">
+      <i c="3" l="1610633238808" />
+    </e>
+    <e n="Run Tests">
+      <i c="2" l="1610644468905" />
+    </e>
+    <e n="RunDebugConfig__Run">
+      <i c="2" l="1610719214831" />
+    </e>
+    <e n="RunProjectAction">
+      <i c="12" l="1610715927457" />
+    </e>
+    <e n="SearchEverywhere">
+      <i c="95" l="1611871506799" />
+    </e>
+    <e n="Settings">
+      <i c="1" l="1610640256722" />
+    </e>
+    <e n="SubmitButtonAction">
+      <i c="36" l="1610719234748" />
+    </e>
+    <e n="TmcSettingsAction">
+      <i c="2" l="1610557174945" />
+    </e>
+    <e n="Tree-selectNext">
+      <i c="6" l="1610717678653" />
+    </e>
+    <e n="Tree-selectPrevious">
+      <i c="6" l="1610717678963" />
+    </e>
+    <e n="Upload Exercise">
+      <i c="30" l="1610645730242" />
+    </e>
+    <e n="WelcomeScreen.Plugins">
+      <i c="7" l="1611871510449" />
+    </e>
+    <e n="com.intellij.execution.impl.ConsoleViewImpl$EnterHandler">
+      <i c="21" l="1610719230981" />
+    </e>
+    <e n="com.intellij.find.SearchReplaceComponent$13">
+      <i c="2" l="1610647434515" />
+    </e>
+    <e n="com.intellij.ide.SystemHealthMonitor$3">
+      <i c="1" l="1610714340689" />
+    </e>
+    <e n="com.intellij.ide.plugins.newui.ListPluginComponent$UninstallAction">
+      <i c="2" l="1610557904335" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="1" l="1610557998396" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.EmptyAction$MyDelegatingAction">
+      <i c="2074" l="1610738804806" />
+    </e>
+    <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$StatusAction">
+      <i c="5" l="1610718150694" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="2" l="1610913816595" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="93" l="1611871510441" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$5">
+      <i c="6" l="1610914334780" />
+    </e>
+    <e n="com.intellij.openapi.updateSettings.impl.UpdateChecker$showNotification$1">
+      <i c="1" l="1611869924693" />
+    </e>
+    <e n="com.intellij.openapi.updateSettings.impl.UpdateChecker$showUpdateResult$5$1">
+      <i c="1" l="1610738677385" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+      <i c="16" l="1610718369955" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$6">
+      <i c="13" l="1611871510202" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$7">
+      <i c="4" l="1610639844498" />
+    </e>
+    <e n="com.maddyhome.idea.vim.group.NotificationService$AppendToIdeaVimRcAction">
+      <i c="1" l="1610718362614" />
+    </e>
+    <e n="com.maddyhome.idea.vim.group.NotificationService$OpenIdeaVimRcAction">
+      <i c="2" l="1610718124107" />
+    </e>
+    <e n="com.maddyhome.idea.vim.ui.ShortcutConflictsSettings">
+      <i c="3" l="1610718118918" />
+    </e>
+    <e n="com.maddyhome.idea.vim.ui.ex.ExShortcutKeyAction">
+      <i c="19" l="1610719211453" />
+    </e>
+  </component>
+</application>

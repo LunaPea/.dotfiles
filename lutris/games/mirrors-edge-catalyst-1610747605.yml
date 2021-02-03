@@ -1,0 +1,6 @@
+game:
+  exe: /mnt/files/Games/Mirrors Edge Catalyst/MirrorsEdgeCatalyst.exe
+system:
+  aco: false
+wine:
+  esync: false

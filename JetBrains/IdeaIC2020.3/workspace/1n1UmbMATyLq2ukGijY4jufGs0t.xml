@@ -1,0 +1,155 @@
+<project version="4">
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Sandbox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/main/java/Sandbox.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Part01_01.Sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="part01-Part01_01.Sandbox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Part01_01.Sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="part01-Part01_01.Sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Part01_01.Sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="part01-Part01_01.Sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Part01_01.Sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="part01-Part01_01.Sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5131291" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Learn" order="4" />
+      <window_info id="Pull Requests" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32988626" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32988626" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Problems View" order="5" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="TMC Test Results" order="9" visible="true" weight="0.33712512" />
+      <window_info anchor="bottom" id="Services" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="11" />
+      <window_info anchor="right" id="TMC Project List" order="0" />
+      <window_info anchor="right" id="Maven" order="1" />
+      <window_info anchor="right" id="Layout Validation" order="6" />
+    </layout>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="896" y="140" key="#Project_Structure" timestamp="1610558033162">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="896" y="140" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1610558033162" />
+    <state x="849" y="221" width="1071" height="654" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610557974399">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="849" y="221" width="1071" height="654" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1610557974399" />
+    <state x="1175" y="356" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1610557981488">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1175" y="356" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1610557981488" />
+    <state width="914" height="291" key="GridCell.Tab.0.bottom" timestamp="1610558289443">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1610558289443" />
+    <state width="914" height="291" key="GridCell.Tab.0.center" timestamp="1610558289442">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="291" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1610558289442" />
+    <state width="914" height="291" key="GridCell.Tab.0.left" timestamp="1610558289441">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="291" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1610558289441" />
+    <state width="914" height="291" key="GridCell.Tab.0.right" timestamp="1610558289442">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="291" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1610558289442" />
+    <state x="469" y="200" key="SettingsEditor" timestamp="1610557910691">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="469" y="200" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1610557910691" />
+    <state x="623" y="254" width="672" height="678" key="search.everywhere.popup" timestamp="1610558148700">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="254" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1610558148700" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Sandbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI" />
+      <state key="GlobalLibrariesConfigurable.UI" />
+      <state key="JdkListConfigurable.UI" />
+      <state key="ModuleStructureConfigurable.UI" />
+      <state key="ProjectLibrariesConfigurable.UI" />
+    </states>
+  </component>
+</project>

@@ -1,0 +1,572 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_01.Sandbox">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_01.Sandbox – Sandbox.java" projectWorkspaceId="1n1UmbMATyLq2ukGijY4jufGs0t">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130344798" />
+              <frame x="960" y="20" width="956" height="1056" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610558289307" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_02.AdaLovelace">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_02.AdaLovelace – AdaLovelace.java" projectWorkspaceId="1n1Wt2ts5UuCtL7fTBl0nWv37zW">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130353103" />
+              <frame x="960" y="20" width="956" height="1056" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610558429523" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_03.OnceUponATime">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_03.OnceUponATime – OnceUponATime.java" projectWorkspaceId="1n1XAj2DRPbz0iBxM4TQV3qUUil">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130353103" />
+              <frame x="960" y="20" width="956" height="526" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610558591508" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_04.Dinosaur">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_04.Dinosaur – Dinosaur.java" projectWorkspaceId="1n1XV0VqHWSAGwJ38ChEkPcQXo9">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130353103" />
+              <frame x="960" y="20" width="956" height="526" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610558753932" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_05.Message">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_05.Message – Message.java" projectWorkspaceId="1n1XpPy1xZvWvMOLuBVkcpidtbE">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130353103" />
+              <frame x="960" y="20" width="956" height="526" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610559072724" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_06.HiAdaLovelace">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_06.HiAdaLovelace – HiAdaLovelace.java" projectWorkspaceId="1n1YTToh0gzZ6VMacMSTKEYGLUA">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130332522" />
+              <frame x="899" y="20" width="1017" height="1056" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610633459159" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_07.MessageThreeTimes">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_07.MessageThreeTimes – MessageThreeTimes.java" projectWorkspaceId="1n3zFToHqgkXVkytMppq6VK522I">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130332522" />
+              <frame x="899" y="20" width="1017" height="526" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610633625551" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_08.Greeting">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_08.Greeting – Greeting.java" projectWorkspaceId="1n3zaJogA2Zm87MHSBNQIpQzYPm">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130332522" />
+              <frame x="899" y="20" width="1017" height="526" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610633792067" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_09.Conversation">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_09.Conversation – Conversation.java" projectWorkspaceId="1n3zvPdkMDp2fCLTSdP8580FCcs">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130332522" />
+              <frame x="899" y="20" width="1017" height="526" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610633951366" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_10.Story">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_10.Story – Story.java" projectWorkspaceId="1n40FKo0A9EibBkniLGheEkophB">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130332522" />
+              <frame x="899" y="20" width="1017" height="526" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610634262984" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_11.VariousVariables">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_11.VariousVariables – VariousVariables.java" projectWorkspaceId="1n40sVn8FrScP72IZA7FgVS6Mmp">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130332522" />
+              <frame x="899" y="20" width="1017" height="526" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610634583904" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_12.IntegerInput">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_12.IntegerInput – IntegerInput.java" projectWorkspaceId="1n41WrMM1nDBNok0B8aOrqMwZqJ">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130332522" />
+              <frame x="899" y="20" width="1017" height="526" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610635238153" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_13.DoubleInput">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_13.DoubleInput – DoubleInput.java" projectWorkspaceId="1n42r4ebjeWc095VhcEn4OgxFi1">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130332522" />
+              <frame x="960" y="20" width="956" height="526" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610635377003" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_14.BooleanInput">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_14.BooleanInput – BooleanInput.java" projectWorkspaceId="1n438bKmfqbzKgv66j3c67sUCtN">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130337589" />
+              <frame x="960" y="20" width="956" height="526" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610638662060" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_15.DifferentTypesOfInput">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_15.DifferentTypesOfInput – DifferentTypesOfInput.java" projectWorkspaceId="1n49nQMamp8W0SeubHhM3uRXAGy">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130313112" />
+              <frame x="839" y="20" width="536" height="1056" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610640039112" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_16.SecondsInADay">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_16.SecondsInADay – SecondsInADay.java" projectWorkspaceId="1n4CaPyWEWXN3KV2BxIWQv55gba">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130313112" />
+              <frame x="839" y="20" width="536" height="1056" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610640338936" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_17.SumOfTwoNumbers">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_17.SumOfTwoNumbers – SumOfTwoNumbers.java" projectWorkspaceId="1n4DC3By5dKz1WGAdwOXHsRTNS4">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130313112" />
+              <frame x="839" y="20" width="536" height="1056" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610644580374" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_18.SumOfThreeNumbers">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_18.SumOfThreeNumbers – SumOfThreeNumbers.java" projectWorkspaceId="1n4Ln3K7xPEg5T5YuVH5fm43PJ4">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130313112" />
+              <frame x="839" y="20" width="536" height="1056" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610644692563" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_19.AdditionFormula">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_19.AdditionFormula – AdditionFormula.java" projectWorkspaceId="1n4M17tCd96wZPo9RGHbihcHEEb">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130313112" />
+              <frame x="839" y="20" width="536" height="1056" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610644807197" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_20.MultiplicationFormula">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_20.MultiplicationFormula – MultiplicationFormula.java" projectWorkspaceId="1n4MFbHSw3Hmh0qTXBvJpllGkWV">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130313112" />
+              <frame x="839" y="20" width="536" height="1056" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610644879117" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_21.AverageOfTwoNumbers">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_21.AverageOfTwoNumbers – AverageOfTwoNumbers.java" projectWorkspaceId="1n4MOeKX2HdacStW4R2GAdQbLoY">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130313112" />
+              <frame x="839" y="20" width="536" height="1056" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610645219691" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_22.AverageOfThreeNumbers">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_22.AverageOfThreeNumbers – AverageOfThreeNumbers.java" projectWorkspaceId="1n4N5OZa3U6L4nrolB4jzne3R93">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130313112" />
+              <frame x="839" y="20" width="536" height="1056" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610645539756" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_24.SpeedingTicket">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_24.SpeedingTicket – SpeedingTicket.java" projectWorkspaceId="1n4OBOiyxFdpnpzyMDoavS7HC9H">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130313112" />
+              <frame x="839" y="20" width="536" height="1056" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610646078281" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_25.CheckYourIndentation">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_25.CheckYourIndentation – CheckYourIndentation.java" projectWorkspaceId="1n4OpMPybNPOIFOP772mW8sxuJG">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130313112" />
+              <frame x="839" y="20" width="536" height="1056" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610646308281" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_26.Orwell">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_26.Orwell – Orwell.java" projectWorkspaceId="1n4PIE0CiYC1ZyD1gQyV5HI40F1">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130313112" />
+              <frame x="839" y="20" width="536" height="1056" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610646451161" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_27.Ancient">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_27.Ancient – Ancient.java" projectWorkspaceId="1n4PaFEiWx9niX4gqkyFt53HKZS">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130313112" />
+              <frame x="839" y="20" width="536" height="1056" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610646568891" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_28.Positivity">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_28.Positivity – Positivity.java" projectWorkspaceId="1n4Pp0uwIgEmxelNZnQajAPtbsv">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130313112" />
+              <frame x="839" y="20" width="536" height="1056" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610646822680" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_29.Adulthood">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_29.Adulthood – Adulthood.java" projectWorkspaceId="1n4QKnxftrVC3uZdfxcm0PxU59h">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130313112" />
+              <frame x="839" y="20" width="536" height="1056" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610646946338" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_30.LargerThanOrEqualTo">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_30.LargerThanOrEqualTo – LargerThanOrEqualTo.java" projectWorkspaceId="1n4QaPuX1K5Kf73Zk5UxVEWfONr">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130313112" />
+              <frame x="839" y="20" width="536" height="1056" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610647165076" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_31.GradesAndPoints">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_31.gradesAndPoints – GradesAndPoints.java" projectWorkspaceId="1n4R1snifNCCq3ymMdsajmsDW8A">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130313112" />
+              <frame x="839" y="20" width="536" height="1056" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610647493080" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_32.OddOrEven">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_32.OddOrEven – OddOrEven.java" projectWorkspaceId="1n4Rh73GVdrQcMeId6g8yVYmCvW">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130313112" />
+              <frame x="839" y="20" width="536" height="1056" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610647804709" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_33.Password">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_33.Password – Password.java" projectWorkspaceId="1n4SKBivzBNSWxdZHccTGswjgY6">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130313112" />
+              <frame x="839" y="20" width="536" height="1056" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610648126896" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_34.Same">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_34.Same – Same.java" projectWorkspaceId="1n4SymAOuFeSQCeAqOc8OkX7X6Y">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130313112" />
+              <frame x="960" y="20" width="956" height="526" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610659710622" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_35.CheckingTheAge">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_35.CheckingTheAge – CheckingTheAge.java" projectWorkspaceId="1n4q0Dj7OAUDwtI6uQi53tDwov8">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130313112" />
+              <frame x="879" y="20" width="1037" height="1056" extendedState="1" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610659913670" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_36.LeapYear">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_36.LeapYear – LeapYear.java" projectWorkspaceId="1n4qryPvKsrKqcIVWMyfD1K0Hjh">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130313112" />
+              <frame x="899" y="20" width="1017" height="481" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610661780821" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_37.GiftTax">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_37.GiftTax – GiftTax.java" projectWorkspaceId="1n4ueOrt6WYwBRrHkewrOs8N1hO">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130300135" />
+              <frame x="899" y="20" width="1017" height="526" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610714911584" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part04-Part04_10.Song">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part04_10.Song" projectWorkspaceId="1n6eLJFo13SKX3xdfWFCKjCLrQL">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130300135" />
+              <frame x="899" y="20" width="1017" height="1056" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610714911911" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part01-Part01_23.SimpleCalculator">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part01_23.SimpleCalculator – SimpleCalculator.java" projectWorkspaceId="1n4NjhBFBWcjb3JZnfGODjBb85C">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130300135" />
+              <frame x="0" y="20" width="956" height="1056" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610715830809" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part02-Part02_01.Squared">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part02_01.Squared – Squared.java" projectWorkspaceId="1n6gCpM0Ji7r3WosflnzhEDhQzi">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130349598" />
+              <frame x="899" y="20" width="1017" height="526" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610715972645" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part02-Part02_02.SquareRootOfSum">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part02_02.SquareRootOfSum – SquareRootOfSum.java" projectWorkspaceId="1n6gUkn3ApxwQeHFmKeTLUcBqrX">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130349598" />
+              <frame x="899" y="20" width="1017" height="526" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610716130132" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part02-Part02_03.AbsoluteValue">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part02_03.AbsoluteValue – AbsoluteValue.java" projectWorkspaceId="1n6goPxvrei3Sebng3gMlyFKPVD">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130356802" />
+              <frame x="899" y="20" width="1017" height="526" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610716465809" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part02-Part02_04.ComparingNumbers">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part02_04.ComparingNumbers – ComparingNumbers.java" projectWorkspaceId="1n6hUddKtJEJPfWulp3tbXeWWQA">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130350616" />
+              <frame x="960" y="20" width="956" height="526" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610716782103" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part02-Part02_05.CarryOn">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part02_05.CarryOn – CarryOn.java" projectWorkspaceId="1n6i8SauE3jgFwegyzzgZPCXSDh">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130308581" />
+              <frame x="960" y="20" width="956" height="526" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610718102341" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part02-Part02_06.AreWeThereYet">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part02_06.AreWeThereYet – AreWeThereYet.java" projectWorkspaceId="1n6kTwuswgGDYzAC5e3U0BnV8rd">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130308581" />
+              <frame x="899" y="20" width="1017" height="526" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610718727772" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part02-Part02_07.OnlyPositives">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part02_07.OnlyPositives – OnlyPositives.java" projectWorkspaceId="1n6m4vyHNqNKYLPQOnroQU1Y9Rp">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130308581" />
+              <frame x="0" y="20" width="1276" height="1416" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610719334760" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/TMCProjects/mooc-java-programming-i/part02-Part02_08.NumberOfNumbers">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Part02_08.NumberOfNumbers – NumberOfNumbers.java" projectWorkspaceId="1n6nJBLbeqN4HO8gZK8ArYrXMo6">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1610130307207" />
+              <frame x="1280" y="20" width="1276" height="1416" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1610738665640" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/Hello_Kotlin">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1niS7RZCHZ4AE9n7tzmPhKKAADV">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.7148.57" />
+              <option name="buildTimestamp" value="1611853571021" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1611871253400" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/IdeaProjects" />
+  </component>
+</application>
