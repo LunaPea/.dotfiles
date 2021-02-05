@@ -5,10 +5,13 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+alias x='exit'
+alias cl='clear'
+
 export MPD_HOST="/home/michal/.config/mpd/socket"
 PS1='[\u@\h \W]\$ '
 
-export SHELL="urxvt"
+export SHELL="fish"
 export LC_ALL="en_US.UTF-8"
 export EDITOR="nvim"
 export TERMINAL="urxvt"

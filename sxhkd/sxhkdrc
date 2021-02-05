@@ -13,11 +13,11 @@ super + Escape
 
 # terminal emulator
 ctrl + alt + t
-	urxvt -e fish
+	urxvt
 
 # terminal emulator
 super + alt + t
-	urxvt -e fish
+	urxvt
 
 # terminal emulator via ssh
 control + alt + s
