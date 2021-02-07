@@ -281,3 +281,10 @@ XF86AudioRaiseVolume
   pulseaudio-control --volume-max 130 up
 XF86AudioMute
   pulseaudio-control togmute
+
+
+XF86MonBrightnessUp
+	brightnessctl set 10%+
+
+XF86MonBrightnessDown
+	brightnessctl set 10%-
