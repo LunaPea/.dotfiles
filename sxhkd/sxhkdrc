@@ -286,9 +286,26 @@ XF86AudioRaiseVolume
 XF86AudioMute
   pulseaudio-control togmute
 
+#
+# brightness
+#
+
+# laptop:
 
 XF86MonBrightnessUp
 	brightnessctl set 10%+
 
 XF86MonBrightnessDown
 	brightnessctl set 10%-
+
+# pc:
+
+super + F11
+	sudo ddccontrol -r 0x10 -W +5 dev:/dev/i2c-10
+super + F10
+	sudo ddccontrol -r 0x10 -W -5 dev:/dev/i2c-10
+
+super + shift + F11
+	sudo ddccontrol -r 0x10 -W +10 dev:/dev/i2c-7
+super + shift + F10
+	sudo ddccontrol -r 0x10 -W -10 dev:/dev/i2c-7
