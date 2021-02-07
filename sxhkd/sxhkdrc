@@ -23,8 +23,8 @@ super + alt + t
 control + alt + s
 	urxvt -e ssh michal@192.168.1.50
 
-super + F12
-	systemctl suspend
+super + Pause
+	sleep 1; systemctl suspend
 
 super + p
  xclip -selection c ~/Documents/creeperFarm
@@ -300,12 +300,18 @@ XF86MonBrightnessDown
 
 # pc:
 
-super + F11
-	sudo ddccontrol -r 0x10 -W +5 dev:/dev/i2c-10
 super + F10
+	sudo ddccontrol -r 0x10 -W +5 dev:/dev/i2c-10
+super + F9
 	sudo ddccontrol -r 0x10 -W -5 dev:/dev/i2c-10
 
-super + shift + F11
-	sudo ddccontrol -r 0x10 -W +10 dev:/dev/i2c-7
 super + shift + F10
+	sudo ddccontrol -r 0x10 -W +10 dev:/dev/i2c-7
+super + shift + F9
 	sudo ddccontrol -r 0x10 -W -10 dev:/dev/i2c-7
+
+super + F11
+	sudo ddccontrol -r 0xe2 -w 5 dev:/dev/i2c-10
+super + F12
+	sudo ddccontrol -r 0xe2 -w 6 dev:/dev/i2c-10
+
