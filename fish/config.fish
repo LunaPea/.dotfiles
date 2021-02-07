@@ -1,5 +1,16 @@
 ; # vim:ft=dosini
 
+export MPD_HOST="/home/michal/.config/mpd/socket"
+
+export SHELL="fish"
+export LC_ALL="en_US.UTF-8"
+export EDITOR="nvim"
+export TERMINAL="urxvt"
+export BROWSER="firefox"
+export QT_QPA_PLATFORMTHEME=gtk2
+export _JAVA_AWT_WM_NONREPARENTING=1
+
+
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
 alias netappuse='lsof -P -i -n'
@@ -100,8 +111,4 @@ function backup --argument filename
     cp $filename $filename.bak
 end
 
-
-
-
-#alias cp='/usr/local/bin/advcp -g'
-#alias mv='/usr/local/bin/advmv -g'
+~/.config/fish/startx
