@@ -315,3 +315,8 @@ super + F11
 super + F12
 	sudo ddccontrol -r 0xe2 -w 6 dev:/dev/i2c-10
 
+super + shift + F11
+	sudo ddccontrol -r 0xe5 -W -1 dev:/dev/i2c-10
+super + shift + F12
+	sudo ddccontrol -r 0xe5 -W +1 dev:/dev/i2c-10
+
