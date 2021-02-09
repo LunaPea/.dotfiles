@@ -10,13 +10,9 @@ ln -s ~/.dotfiles/polybar ~/.config/
 ln -s ~/.dotfiles/btops ~/.config/
 ln -s ~/.dotfiles/dunstrc ~/.config/
 ln -s ~/.dotfiles/fish ~/.config/
-ln -s ~/.dotfiles/JetBrains ~/.config/
-ln -s ~/.dotfiles/qBittorrent ~/.config/
 ln -s ~/.dotfiles/Trolltech.conf ~/.config/
 ln -s ~/.dotfiles/greenclip.cfg ~/.config/
 ln -s ~/.dotfiles/nvim ~/.config/
 ln -s ~/.dotfiles/ranger ~/.config/
 ln -s ~/.dotfiles/lutris ~/.config/
 ln -s ~/.dotfiles/rofi ~/.config/
-ln -s ~/.dotfiles/kdeconnect ~/.config/
-ln -s ~/.dotfiles/screengrab ~/.config/
