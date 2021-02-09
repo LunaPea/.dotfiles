@@ -1,6 +1,6 @@
 ; # vim:ft=dosini
 
-export MPD_HOST="/home/michal/.config/mpd/socket"
+export MPD_HOST="/home/luna/.config/mpd/socket"
 
 export SHELL="fish"
 export LC_ALL="en_US.UTF-8"
@@ -74,13 +74,13 @@ alias pacer='sudo pacman -Rns --color=auto'
 alias android-mnt='jmtpfs ~/redmi/'
 alias cd-android='cd ~/redmi/Internal\ shared\ storage/'
 
-alias townscraper='wine /mnt/Michal/Games/Townscaper.v08.10.2020/Townscaper.exe'
+alias townscraper='wine /mnt/luna/Games/Townscaper.v08.10.2020/Townscaper.exe'
 alias edex='~/Downloads/eDEX-UI.Linux.x86_64.AppImage'
 
 export SPOTIPY_CLIENT_ID='e1434f530abe4597bc53a8ea9ae793c5'
 export SPOTIPY_CLIENT_SECRET='d499a24516fd44d881c76fe1d3db23f2'
 
-export PATH="/home/michal/.local/bin/:$PATH"
+export PATH="/home/luna/.local/bin/:$PATH"
 set fish_greeting
 
 function __history_previous_command

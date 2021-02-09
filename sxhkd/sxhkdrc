@@ -286,6 +286,13 @@ XF86AudioRaiseVolume
 XF86AudioMute
   pulseaudio-control togmute
 
+alt + F3
+	pulseaudio-control --volume-max 130 up
+alt + F2
+	pulseaudio-control --volume-max 130 down
+alt + F1
+	pulseaudio-control togmute
+
 #
 # brightness
 #

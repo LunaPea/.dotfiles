@@ -8,7 +8,7 @@
 alias x='exit'
 alias cl='clear'
 
-export MPD_HOST="/home/michal/.config/mpd/socket"
+export MPD_HOST="/home/luna/.config/mpd/socket"
 PS1='[\u@\h \W]\$ '
 
 export SHELL="fish"
