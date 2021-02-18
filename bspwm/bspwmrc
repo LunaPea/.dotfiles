@@ -26,6 +26,7 @@ bspc config gapless_monocle      true
 bspc config single_monocle       true
 
 bspc rule -a screengrab state=floating
+bspc rule -a java state=floating
 
 killall polybar
 while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
