@@ -3,5 +3,6 @@ game:
 system:
   aco: true
 wine:
+  dxvk: true
   esync: true
   fsync: false
