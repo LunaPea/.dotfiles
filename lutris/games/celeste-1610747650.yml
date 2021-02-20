@@ -1,9 +1,0 @@
-game:
-  exe: /mnt/files/Games/Celeste/Celeste.exe
-system:
-  gamemode: false
-  prefer_system_libs: true
-wine:
-  esync: false
-  fsync: false
-  system_winetricks: false

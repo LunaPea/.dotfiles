@@ -1,9 +1,0 @@
-game:
-  exe: /mnt/files/Games/The.Witness.v24.01.2019/witness64_d3d11.exe
-system:
-  prefer_system_libs: true
-wine:
-  dxvk: true
-  dxvk_version: v1.7.3L-03f11ba
-  esync: true
-  fsync: false
