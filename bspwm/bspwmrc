@@ -41,10 +41,12 @@ xsetroot  -solid '#121212'
 setxkbmap -option caps:super
 xsetroot  -cursor_name left_ptr
 
+pgrep -fl 'pidswallow -gl' || pidswallow -gl &
 /usr/lib/kdeconnectd &
 greenclip daemon &
 sudo vnstatd -d
 mocp -S &
+bspm -d &
 sxhkd &
 btops &
 dunst &
