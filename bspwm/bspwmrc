@@ -46,7 +46,6 @@ pgrep -fl 'pidswallow -gl' || pidswallow -gl &
 greenclip daemon &
 sudo vnstatd -d
 mocp -S &
-bspm -d &
 sxhkd &
 btops &
 dunst &
