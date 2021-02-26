@@ -26,8 +26,8 @@ super + alt + t
 	urxvt
 
 # terminal emulator via ssh
-control + alt + s
-	urxvt -e ssh michal@192.168.1.50
+# control + alt + s
+	# urxvt -e ssh michal@192.168.1.50
 
 super + Pause
 	sleep 1; systemctl suspend

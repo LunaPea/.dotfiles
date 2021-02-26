@@ -9,6 +9,7 @@ export TERMINAL="urxvt"
 export BROWSER="firefox"
 export QT_QPA_PLATFORMTHEME=gtk2
 export _JAVA_AWT_WM_NONREPARENTING=1
+export JAVA_OPTS="--illegal-access=permit"
 
 
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
@@ -76,9 +77,6 @@ alias cd-android='cd ~/redmi/Internal\ shared\ storage/'
 
 alias townscraper='wine /mnt/luna/Games/Townscaper.v08.10.2020/Townscaper.exe'
 alias edex='~/Downloads/eDEX-UI.Linux.x86_64.AppImage'
-
-export SPOTIPY_CLIENT_ID='e1434f530abe4597bc53a8ea9ae793c5'
-export SPOTIPY_CLIENT_SECRET='d499a24516fd44d881c76fe1d3db23f2'
 
 export PATH="/home/luna/.local/bin/:$PATH"
 set fish_greeting
