@@ -57,7 +57,7 @@ alias .5='cd ../../../../..'
 # alias ls='exa --color=always --group-directories-first'
 # alias ll='exa -l --color=always --group-directories-first'  # long format
 
-alias sl='exa -l --group-directories-first --time-style long-iso | rev | .scripts/rpad'
+alias sl='exa -l --group-directories-first --time-style long-iso | rev | ~/.scripts/rpad'
 alias la='exa -a --color=always --group-directories-first'
 alias lla='exa -al --color=always --group-directories-first --time-style long-iso'
 alias lt='exa -aT --color=always --group-directories-first'

@@ -48,20 +48,18 @@ super + Pause
 # Rofi: pds
 # super + p
 #	rofi-todo -f ~/Documents/homework.json -a ~/Documents/homework_done.json
-# Rofi: search
-# super + s
-	# rofi-search
 # Rofi: show movies
 # super + m
 	# rofi-movies
-
-
-
-
 # Rofi: 0x0.st
+# super + s
+	# ~/.local/bin/0x0
 
+
+
+# Rofi: search
 super + s
-	~/.local/bin/0x0
+	rofi-search
 
 # Rofi: launch menu
 super + r
