@@ -36,11 +36,14 @@ polybar default &
 polybar default_laptop &
 polybar defaultext &
 
+xser r rate 300 50
 xset      -dpms s off
 setxkbmap -layout pl
 xsetroot  -solid '#121212'
 setxkbmap -option caps:super
 xsetroot  -cursor_name left_ptr
+xmodmap   -e 'keycode 135 = Super_R'
+killall xcape 2>/dev/null ; xcape -e 'Super_L=Escape' # when caps pressed once - act like escape
 
 pgrep -fl 'pidswallow -gl' || pidswallow -gl &
 /usr/lib/kdeconnectd &
@@ -50,5 +53,3 @@ mocp -S &
 sxhkd &
 btops &
 dunst &
-
-# numlockx on
