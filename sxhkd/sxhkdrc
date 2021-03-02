@@ -5,7 +5,7 @@
 
 # make a screenshot
 Print
-	screengrab
+	~/.scripts/screenshot
 
 # make sxhkd reload its configuration files:
 super + shift + s
