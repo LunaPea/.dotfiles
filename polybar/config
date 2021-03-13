@@ -114,7 +114,7 @@ font-0 = JetBrainsMono Nerd Font:size=10:antialias=true:2
 font-1 = Noto Sans CJK JP:size=9:antialias=true:0
 
 modules-left = bspwm
-modules-right = pulseaudio-control ping_ms notification-xkcd mnt date BL
+modules-right = pulseaudio-control ping_ms date BL
 
 tray-position = right
 tray-padding = 0
@@ -177,7 +177,7 @@ click-left = ~/.scripts/mocp -c G &
 
 [module/ping_ms]
 type = custom/script
-exec = "ping -qc1 google.com 2>&1 | awk -F'/' 'END{ print (/^rtt/? $5" ms":"F") }'"
+exec = "ping -qc1 1.1.1.1 2>&1 | awk -F'/' 'END{ print (/^rtt/? $5" ms":"F") }'"
 interval = 1
 
 
@@ -221,10 +221,11 @@ ws-icon-11 = scrcpy;
 ws-icon-12 = Microsoft Teams - Preview;
 ws-icon-13 = org-tlauncher-tlauncher-rmo-Tla;
 ws-icon-14 = Minecraft* 1.16.4;
-ws-icon-15 = vim;
-ws-icon-16 = URxvt firefox;
-ws-icon-17 = Microsoft Teams - Preview firef;
-ws-icon-18 = Anki;﬷
+ws-icon-15 = VLauncher_x64;
+ws-icon-16 = vim;
+ws-icon-17 = URxvt firefox;
+ws-icon-18 = Microsoft Teams - Preview firef;
+ws-icon-19 = Anki;﬷
 ws-icon-default = 
 
 label-unfocused = %icon% 
