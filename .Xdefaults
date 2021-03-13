@@ -38,7 +38,7 @@ rofi.font:	JetBrainsMono Nerd Font 12
 *.cursorColor:  #55bcce
 
 ! black
-*.color0:       #48483e
+*.color0:       #121212
 *.color8:       #76715e
 
 ! red
