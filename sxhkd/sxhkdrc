@@ -23,7 +23,7 @@ ctrl + alt + t
 
 # terminal emulator
 super + alt + t
-	urxvt
+	samedir
 
 # terminal emulator via ssh
 # control + alt + s
@@ -39,21 +39,32 @@ super + Pause
 
 #super + l
 #	rofi -show power-menu -modi power-menu:~/.scripts/rofi-power-menu --no-symbols -font "Inconsolata 14"
+
 #super + b
 #	~/scripts/rofi-bangs.sh -font "Inconsolata 14"
+
 #super + m
 #	/mnt/Michal/programming/python/rofi-todo/rofi-todo -f todocopy.json -a todoarchive.json
+
 #super + t
 #	~/rofi-twitch/rofi-twitch
+
 # Rofi: pds
 # super + p
 #	rofi-todo -f ~/Documents/homework.json -a ~/Documents/homework_done.json
+
 # Rofi: show movies
 # super + m
 	# rofi-movies
+
 # Rofi: 0x0.st
 # super + s
 	# ~/.local/bin/0x0
+
+# Rofi: music
+# super + z
+	# rofi-mocp
+
 
 
 
@@ -89,10 +100,6 @@ super + a
 super + alt + z
   ~/.scripts/rofi/rofi-spotify  
 
-# Rofi: music
-# super + z
-	# rofi-mocp
-
 # Rofi: mpris
 super + x
 	rofi-mpris
@@ -113,7 +120,11 @@ super + shift + slash
 super + slash
 	~/.scripts/sxhkd-help
 
+super + m
+	rofi-mount
 
+super + u
+	rofi-umount
 
 
 # launch Minecraft
@@ -149,8 +160,8 @@ super + z
 
 
 # swich monitors
-# super + w
-  # bspc monitor -f next
+super + grave
+  bspc monitor -f next
 
 # quit/restart bspwm
 # super + alt + r
@@ -214,8 +225,8 @@ super + bracket{left,right}
 	bspc desktop -f {prev,next}.local
 
 # focus the last node/desktop
-super + {grave,Tab}
-	bspc {node,desktop} -f last
+super + Tab
+	bspc desktop -f last
 
 # focus the older or newer node in the focus history
 super + {o,i}
