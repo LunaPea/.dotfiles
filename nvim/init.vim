@@ -96,6 +96,7 @@ nnoremap <silent> <leader>v :vsplit<CR>
 
 nnoremap <silent> <leader>gd :YcmCompleter GoTo<CR>
 nnoremap <silent> <leader>gf :YcmCompleter FixIt<CR>
+
 " Alternate way to quit
 nnoremap <C-Q> :wq<CR>
 
@@ -110,12 +111,9 @@ nnoremap <M-l>    :vertical resize +2<CR>
 nnoremap <leader>t :tabn<CR>
 nnoremap <leader>w :set wrap!<CR>
 
-" Make Ranger replace netrw and be the file explorer
-let g:rnvimr_ex_enable = 1
-
-nmap <silent> <leader>r :RnvimrToggle<CR>
-
-
+nnoremap <silent> <leader>f :NERDTreeToggle<CR>
+nnoremap <silent> <leader>f :Files<CR>
+nnoremap <silent> <leader>gf :GFiles<CR>
 
 set nocompatible               " be improved, required
 filetype off                   " required
@@ -137,7 +135,10 @@ Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'mbbill/undotree'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'ryanoasis/vim-devicons'
-Plugin 'kevinhwang91/rnvimr'
+Plugin 'junegunn/fzf.vim'
+Plugin 'tpope/vim-fugitive'
+
+" Plugin 'kevinhwang91/rnvimr'
 
 " ===================
 " end of plugins
