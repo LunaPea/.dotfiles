@@ -42,7 +42,7 @@ alias mnthelp='~/.scripts/mnthelp'
 alias netscrcpy='scrcpy -m 720 -b 800000'
 alias ytmusic='cd ~/.mu; youtube-dl --download-archive downloaded.txt --no-post-overwrites -ciwx --audio-format mp3 "https://www.youtube.com/watch?v=pfkBYHFZAt8&list=PLnzdrav5AL-m7l3IKDwbdWKFQgBm2Xuos"'
 alias ytM='cd ~/.M & youtube-dl --download-archive downloaded.txt --no-post-overwrites -ciwx --audio-format mp3 "https://www.youtube.com/playlist?list=PLnzdrav5AL-nzGTlX9YLqeW2D2iffhEFD"'
-alias ytWL='cd /mnt/files/.WL & youtube-dl --cookies ~/Documents/cookies-yt.txt --download-archive downloaded.txt --no-post-overwrites --embed-thumbnail -ciw -f mp4 -o "%(playlist_index)s-%(title)s__%(uploader)s.%(ext)s" "https://www.youtube.com/playlist?list=WL"'
+alias ytWL='cd ~/.WL & youtube-dl --cookies ~/Documents/cookies-yt.txt --download-archive downloaded.txt --no-post-overwrites --embed-thumbnail -ciw -f mp4 -o "%(playlist_index)s-%(title)s__%(uploader)s.%(ext)s" "https://www.youtube.com/playlist?list=WL"'
 alias keys='gpg --keyserver pool.sks-keyservers.net --recv-keys'
 
 # navigation
@@ -57,11 +57,11 @@ alias .5='cd ../../../../..'
 # alias ls='exa --color=always --group-directories-first'
 # alias ll='exa -l --color=always --group-directories-first'  # long format
 
-alias sl='exa -l --group-directories-first --time-style long-iso | rev | ~/.scripts/rpad'
+alias sl='exa -l --group-directories-first --time-style long-iso | rev | ~/.scripts/rpad --git'
 alias la='exa -a --color=always --group-directories-first'
-alias lla='exa -al --color=always --group-directories-first --time-style long-iso'
+alias lla='exa -al --color=always --group-directories-first --time-style long-iso --git'
 alias lt='exa -aT --color=always --group-directories-first'
-alias ls='exa -l --color=always --group-directories-first --time-style long-iso'
+alias ls='exa -l --color=always --group-directories-first --time-style long-iso --git'
 
 # confirm before overwriting something
 alias cp="cp -i"
@@ -74,9 +74,6 @@ alias pacer='sudo pacman -Rns --color=auto'
 
 alias android-mnt='jmtpfs ~/redmi/'
 alias cd-android='cd ~/redmi/Internal\ shared\ storage/'
-
-alias townscraper='wine /mnt/luna/Games/Townscaper.v08.10.2020/Townscaper.exe'
-alias edex='~/Downloads/eDEX-UI.Linux.x86_64.AppImage'
 
 export PATH="/home/luna/.local/bin/:$PATH"
 set fish_greeting
