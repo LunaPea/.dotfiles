@@ -2,7 +2,7 @@
 nnoremap <Space> <NOP>
 let g:mapleader = "\<Space>"
 
-syntax enable                           " Enables syntax highlighing
+syntax on                               " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set nowrap                              " Display long lines as just one line
 set encoding=utf-8                      " The encoding displayed
@@ -75,6 +75,7 @@ let g:NERDCreateDefaultMappings = 1
 let g:NERDSpaceDelims = 1
 let g:NERDCompactSexyComs = 1
 
+let NERDTreeShowHidden=1
 
 nnoremap j gj
 nnoremap gj j
@@ -112,8 +113,11 @@ nnoremap <leader>t :tabn<CR>
 nnoremap <leader>w :set wrap!<CR>
 
 nnoremap <silent> <leader>f :NERDTreeToggle<CR>
-nnoremap <silent> <leader>f :Files<CR>
+nnoremap <silent> <leader>ff :NERDTreeFind 
 nnoremap <silent> <leader>gf :GFiles<CR>
+
+nnoremap <silent> <leader>d :Git diff %<CR>
+
 
 set nocompatible               " be improved, required
 filetype off                   " required
@@ -127,7 +131,7 @@ Plugin 'VundleVim/Vundle.vim'  " required
 " ===================
 
 Plugin 'bling/vim-airline'
-" Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdtree'
 Plugin 'valloric/youcompleteme'
 Plugin 'tpope/vim-sensible'
 Plugin 'octol/vim-cpp-enhanced-highlight'
@@ -135,7 +139,6 @@ Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'mbbill/undotree'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'ryanoasis/vim-devicons'
-Plugin 'junegunn/fzf.vim'
 Plugin 'tpope/vim-fugitive'
 
 " Plugin 'kevinhwang91/rnvimr'

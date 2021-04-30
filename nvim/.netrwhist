@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/luna/.dotfiles/polybar'
+let g:netrw_dirhist_5='/home/luna/.mozilla/firefox/pcm1bwnr.default-release/browser-extension-data/bookmarkdupes@martin-vaeth.org'
+let g:netrw_dirhist_4='/mnt/files/Games/.minecraft/versions/fabric-loader-0.11.2-1.16.4'
 let g:netrw_dirhist_3='scp://michal@192.168.1.11//home/michal/'
 let g:netrw_dirhist_2='/home/michal/.config/sxhkd'
 let g:netrw_dirhist_1='/home/michal/.config/bspwm'
