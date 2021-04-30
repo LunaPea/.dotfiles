@@ -41,12 +41,12 @@ xsetroot  -solid '#121212'
 setxkbmap -option caps:super
 xsetroot  -cursor_name left_ptr
 xmodmap   -e 'keycode 135 = Super_R'
-killall xcape 2>/dev/null ; xcape -e 'Super_L=Escape' # when caps pressed once - act like escape
+killall xcape 2>/dev/null; xcape -e 'Super_L=Escape' # when caps pressed once - act like escape
 
-pgrep 'pidswallow' || pidswallow -gl &
-pgrep 'greenclip'  || greenclip daemon &
-pgrep 'sxhkd'      || sxhkd &
-pgrep 'btops'      || btops &
+pgrep 'pidswallow'|| pidswallow -gl &
+pgrep 'sxhkd'||      sxhkd &
+killall 'greenclip'; greenclip daemon &
+killall 'btops';     btops &
 /usr/lib/kdeconnectd &
 sudo vnstatd -d
 dunst &
