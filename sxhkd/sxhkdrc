@@ -1,8 +1,3 @@
-#
-# wm independent hotkeys
-#
-
-
 # make a screenshot
 Print
 	~/.scripts/screenshot
@@ -14,7 +9,7 @@ super + shift + s
 # restart polybar
 super + shift + p
 	~/.scripts/restartpolybar
-#
+
 # restart bspwm
 super + shift + b
 	bspc wm -r
@@ -117,7 +112,6 @@ XF86Calculator
 super + shift + slash
 	~/.scripts/rofi/rofi-help
 
-
 # show all shortcuts
 super + slash
 	~/.scripts/sxhkd-help
@@ -131,7 +125,7 @@ super + u
 
 # launch Minecraft
 super + alt + m
-	java -jar ~/.minecraft/TLauncher-2.72.jar
+	~/.scripts/BLauncher
 
 # launch teams
 super + alt + t
@@ -149,21 +143,18 @@ super + alt + f
 super + alt + v
 	vieb
 
-# launch factorio
-super + ctrl f
-	steam steam://run/427520
-
-
-
 #
 # bspwm hotkeys
 #
+
+# balance the windows
+super + alt + b
+	~/.scripts/bspwm-balance
 
 super + z
 	urxvt -e\
 	pkill -f bsp-layout;\
 	bsp-layout set (echo -en "rgrid\ntiled\nmonocle" | rofi -dmenu)
-
 
 # swich monitors
 super + grave
@@ -174,12 +165,9 @@ super + grave
 	# $HOME/.scripts/killall.sh
 
 # close and kill
-alt + {_,shift + } F4
-	bspc node -{c,k}
 
 super + {_,shift + } q
 	bspc node -{c,k}
-
 
 # alternate between the tiled and monocle layout
 super + w
@@ -249,11 +237,6 @@ super + {_,shift} + {1-9}
 	bspc {desktop -f, node -d} '^{1-9}' --follow
 super + {_,shift} + {F1,F2,F3}
 	bspc {desktop -f, node -d} '^{7,8,9}' --follow
-
-# super + shift + {1-9}
-	# ~/.scripts/bspwm-move {1-9}
-# super + shift + {F1,F2,F3}
-	# ~/.scripts/bspwm-move {7,8,9}
 
 #
 # preselect
