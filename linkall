@@ -16,3 +16,4 @@ ln -s ~/.dotfiles/nvim ~/.config/
 ln -s ~/.dotfiles/ranger ~/.config/
 ln -s ~/.dotfiles/lutris ~/.config/
 ln -s ~/.dotfiles/rofi ~/.config/
+ln -s ~/.dotfiles/zathura ~/.config/
