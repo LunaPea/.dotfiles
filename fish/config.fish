@@ -66,7 +66,7 @@ alias ls='exa -l --color=always --group-directories-first --time-style long-iso 
 # confirm before overwriting something
 alias cp="cp -i"
 alias mv='mv -i'
-alias rm='rm -I'
+alias rm='rm -i'
 
 alias pacu='sudo pacman -Syu --noconfirm | lolcat'
 alias pac='sudo pacman -Sy --color=auto'
@@ -75,7 +75,7 @@ alias pacer='sudo pacman -Rns --color=auto'
 alias android-mnt='jmtpfs ~/redmi/'
 alias cd-android='cd ~/redmi/Internal\ shared\ storage/'
 
-export PATH="/home/luna/.local/bin/:$PATH"
+export PATH=".:/home/luna/.local/bin/:$PATH"
 set fish_greeting
 
 function __history_previous_command
