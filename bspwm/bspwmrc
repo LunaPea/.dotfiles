@@ -1,5 +1,4 @@
 #! /bin/sh
-
 bspc monitor DisplayPort-2 -d I II III IV V VI
 bspc monitor DVI-D-0       -d VII VIII IX
 
@@ -28,6 +27,9 @@ bspc config single_monocle       true
 bspc rule -a java 		state=floating
 bspc rule -a scrcpy 	state=floating rectangle=379x820+1600+300
 bspc rule -a steam		follow=no
+bspc rule -a vlc		state=fullscreen
+bspc rule -a Spotify	state=fullscreen
+bspc rule -a Zathura	state=tiled
 
 killall polybar
 polybar default &
@@ -43,10 +45,10 @@ xsetroot  -cursor_name left_ptr
 xmodmap   -e 'keycode 135 = Super_R'
 killall xcape 2>/dev/null; xcape -e 'Super_L=Escape' # when caps pressed once - act like escape
 
-pgrep 'pidswallow'|| pidswallow -gl &
-pgrep 'sxhkd'||      sxhkd &
-killall 'greenclip'; greenclip daemon &
-killall 'btops';     btops &
+pgrep 'pidswallow' || pidswallow -gl &
+pgrep 'sxhkd' ||      sxhkd &
+killall greenclip;    greenclip daemon &
+killall btops;        btops &
 /usr/lib/kdeconnectd &
 sudo vnstatd -d
 dunst &
