@@ -1,5 +1,7 @@
 ; # vim:ft=dosini
 
+export LFS=/mnt/lfs
+
 export MPD_HOST="/home/luna/.config/mpd/socket"
 
 export SHELL="fish"
@@ -76,6 +78,7 @@ alias android-mnt='jmtpfs ~/redmi/'
 alias cd-android='cd ~/redmi/Internal\ shared\ storage/'
 
 export PATH="/home/luna/.local/bin/:$PATH"
+export PATH="/home/michal/.local/bin/:$PATH"
 set fish_greeting
 
 function __history_previous_command
