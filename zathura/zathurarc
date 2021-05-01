@@ -1,0 +1,29 @@
+/* vim:set ft=vim : */
+set selection-clipboard primary
+set scroll-step 30
+set guioptions none
+set incremental-search true
+
+set default-bg \#121212
+set default-fg \#d0d0d0
+
+set recolor-lightcolor \#121212
+set recolor-darkcolor \#d0d0d0
+
+set completion-bg \#121212
+set completion-fg \#55bcce
+
+set completion-highlight-bg \#d0d0d0
+set completion-highlight-fg \#121212
+
+set inputbar-fg \#d0d0d0
+set inputbar-bg \#121212
+
+set highlight-color \#ffd787
+set highlight-active-color \#d7ffaf
+
+set notification-bg \#121212
+set notification-fg \#55bcce
+
+set recolor true
+set recolor-keephue
