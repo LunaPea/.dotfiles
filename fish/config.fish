@@ -77,7 +77,7 @@ alias pacer='sudo pacman -Rns --color=auto'
 alias android-mnt='jmtpfs ~/redmi/'
 alias cd-android='cd ~/redmi/Internal\ shared\ storage/'
 
-export PATH=".:/home/luna/.local/bin/:$PATH"
+export PATH="/home/luna/.local/bin/:$PATH"
 export PATH="/home/michal/.local/bin/:$PATH"
 set fish_greeting
 
