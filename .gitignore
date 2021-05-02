@@ -2,3 +2,4 @@ nvim/undodir/*
 nvim/bundle/*
 ranger/plugins/*
 ranger/__pycache__
+nvim/.netrwhist
