@@ -54,6 +54,7 @@ killall btops;        btops &
 /usr/lib/kdeconnectd &
 sudo vnstatd -d
 dunst &
+unclutter &
 
 sudo modprobe btusb
 sudo systemctl start bluetooth
