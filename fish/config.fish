@@ -1,5 +1,6 @@
 ; # vim:ft=dosini
-
+;
+export SXHKD_SHELL=/bin/sh
 export LFS=/mnt/lfs
 
 export MPD_HOST="/home/luna/.config/mpd/socket"
