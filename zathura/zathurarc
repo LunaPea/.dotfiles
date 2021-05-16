@@ -1,4 +1,4 @@
-/* vim:set ft=vim : */
+# vim:set ft=vim :
 set selection-clipboard primary
 set scroll-step 30
 set guioptions none

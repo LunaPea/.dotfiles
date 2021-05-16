@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 
 ln -s ~/.dotfiles/.bashrc ~/
-ln -s ~/.dotfiles/.xinitrc ~/
 ln -s ~/.dotfiles/.Xdefaults ~/
-ln -s ~/.dotfiles/.ideavimrc ~/
 ln -s ~/.dotfiles/bspwm ~/.config/
 ln -s ~/.dotfiles/sxhkd ~/.config/
 ln -s ~/.dotfiles/polybar ~/.config/
@@ -17,3 +15,4 @@ ln -s ~/.dotfiles/ranger ~/.config/
 ln -s ~/.dotfiles/lutris ~/.config/
 ln -s ~/.dotfiles/rofi ~/.config/
 ln -s ~/.dotfiles/zathura ~/.config/
+ln -s ~/.dotfiles/htop ~/.config/
