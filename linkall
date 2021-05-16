@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+mkdir -p .config/
 ln -s ~/.dotfiles/.bashrc ~/
 ln -s ~/.dotfiles/.Xdefaults ~/
 ln -s ~/.dotfiles/bspwm ~/.config/
