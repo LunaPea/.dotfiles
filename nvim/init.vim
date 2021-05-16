@@ -82,6 +82,8 @@ nnoremap gj j
 nnoremap k gk
 nnoremap gk k
 
+imap jj <ESC>
+
 map <F2> :w !xclip -sel clip<CR><CR>
 nnoremap <silent> <F5> :UndotreeToggle<CR>
 
