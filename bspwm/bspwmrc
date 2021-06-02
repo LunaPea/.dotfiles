@@ -56,7 +56,6 @@ killall greenclip;    greenclip daemon &
 killall btops;        btops &
 /usr/lib/kdeconnectd &
 sudo vnstatd -d
-compton &
 dunst &
 
 sudo modprobe btusb
