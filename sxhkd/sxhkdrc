@@ -16,7 +16,7 @@ super + shift + b
 
 # terminal emulator
 ctrl + alt + t
-	urxvt
+	alacritty
 
 # terminal emulator
 super + alt + t
