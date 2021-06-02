@@ -33,6 +33,8 @@ bspc rule -a vlc		state=fullscreen
 bspc rule -a Spotify	state=fullscreen
 bspc rule -a Zathura	state=tiled
 
+xrdb ~/.Xdefaults
+
 killall polybar
 polybar default &
 polybar default_laptop &
@@ -49,12 +51,12 @@ killall xcape 2>/dev/null; xcape -e 'Super_L=Escape' # when caps pressed once - 
 
 pgrep 'pidswallow' || pidswallow -gl &
 pgrep 'sxhkd' ||      sxhkd &
+pgrep 'unclutter' || unclutter &
 killall greenclip;    greenclip daemon &
 killall btops;        btops &
 /usr/lib/kdeconnectd &
 sudo vnstatd -d
 dunst &
-unclutter &
 
 sudo modprobe btusb
 sudo systemctl start bluetooth
