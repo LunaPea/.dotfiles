@@ -3,17 +3,14 @@
 export SXHKD_SHELL=/bin/sh
 export LFS=/mnt/lfs
 
-export MPD_HOST="/home/luna/.config/mpd/socket"
-
 export SHELL="fish"
 export LC_ALL="en_US.UTF-8"
 export EDITOR="nvim"
-export TERMINAL="urxvt"
+export TERMINAL="alacritty"
 export BROWSER="firefox"
 export QT_QPA_PLATFORMTHEME=gtk2
 export _JAVA_AWT_WM_NONREPARENTING=1
 export JAVA_OPTS="--illegal-access=permit"
-
 
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
