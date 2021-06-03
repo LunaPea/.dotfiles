@@ -160,6 +160,7 @@ ws-icon-16 = vim;
 ws-icon-17 = URxvt firefox;
 ws-icon-18 = Microsoft Teams - Preview firef;
 ws-icon-19 = Anki;﬷
+ws-icon-20 = Alacritty;
 ws-icon-default = 
 
 label-unfocused = %icon% 
