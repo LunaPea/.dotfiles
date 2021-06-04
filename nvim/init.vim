@@ -97,7 +97,7 @@ nnoremap <silent> <leader>s :split<CR>
 nnoremap <silent> <leader>v :vsplit<CR>
 " nnoremap <leader>f :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>
 
-nnoremap <silent> <leader>gd :YcmCompleter GoTo<CR>
+" nnoremap <silent> <leader>gd :YcmCompleter GoTo<CR>
 nnoremap <silent> <leader>gf :YcmCompleter FixIt<CR>
 
 " Alternate way to quit
@@ -120,6 +120,8 @@ nnoremap <silent> <leader>gf :GFiles<CR>
 
 nnoremap <silent> <leader>d :Git diff %<CR>
 
+" For global replace
+nnoremap gr gD:%s///gc<left><left><left>
 
 set nocompatible               " be improved, required
 filetype off                   " required
