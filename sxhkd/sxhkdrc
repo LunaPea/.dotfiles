@@ -93,9 +93,8 @@ super + b
 super + a
 	rofi-menu
 
-# Rofi: spotify
-super + alt + z
-  ~/.scripts/rofi/rofi-spotify  
+super + v
+	rofi-ani
 
 # Rofi: mpris
 super + x
@@ -116,9 +115,11 @@ super + shift + slash
 super + slash
 	~/.scripts/sxhkd-help
 
+# Rofi: mount
 super + m
 	rofi-mount
 
+# Rofi: umount
 super + u
 	rofi-umount
 
