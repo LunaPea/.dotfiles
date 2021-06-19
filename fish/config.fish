@@ -69,7 +69,7 @@ alias lt='exa -aT --color=always --group-directories-first'
 alias ls='exa -l --color=always --group-directories-first --time-style long-iso --git'
 
 # confirm before overwriting something
-alias cp="cp -i"
+alias cp="cp -rip"
 alias mv='mv -i'
 alias rm='rm -i'
 
