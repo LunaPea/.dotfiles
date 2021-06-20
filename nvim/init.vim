@@ -139,25 +139,15 @@ set rtp+=~/.config/nvim/bundle/Vundle.vim
 call vundle#begin()            " required
 Plugin 'VundleVim/Vundle.vim'  " required
 
-" ===================
-" my plugins here
-" ===================
-
-Plugin 'bling/vim-airline'
+Plugin 'mbbill/undotree'
+Plugin 'itchyny/lightline.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'valloric/youcompleteme'
 Plugin 'tpope/vim-sensible'
-Plugin 'octol/vim-cpp-enhanced-highlight'
-Plugin 'kien/rainbow_parentheses.vim'
-Plugin 'mbbill/undotree'
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'ryanoasis/vim-devicons'
+Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-commentary'
+Plugin 'airblade/vim-gitgutter'
 
-" Plugin 'kevinhwang91/rnvimr'
-
-" ===================
-" end of plugins
-" ===================
 call vundle#end()               " required
 filetype plugin indent on       " required
