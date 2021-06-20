@@ -96,10 +96,10 @@ imap jj <ESC>
 map <F2> :w !xclip -sel clip<CR><CR>
 nnoremap <silent> <F5> :UndotreeToggle<CR>
 
-nnoremap <silent> <leader>h :wincmd h<CR>
-nnoremap <silent> <leader>j :wincmd j<CR>
-nnoremap <silent> <leader>k :wincmd k<CR>
-nnoremap <silent> <leader>l :wincmd l<CR>
+nnoremap <silent> <M-h> :wincmd h<CR>
+nnoremap <silent> <M-j> :wincmd j<CR>
+nnoremap <silent> <M-k> :wincmd k<CR>
+nnoremap <silent> <M-l> :wincmd l<CR>
 
 nnoremap <silent> <leader>u :UndotreeToggle<CR>
 nnoremap <silent> <leader>s :split<CR>
@@ -114,11 +114,11 @@ nnoremap <C-Q> :wq<CR>
 
 nnoremap <Leader>m :noh<cr>
 
-" Use alt + hjkl to resize windows
-nnoremap <M-j>    :resize -2<CR>
-nnoremap <M-k>    :resize +2<CR>
-nnoremap <M-h>    :vertical resize -2<CR>
-nnoremap <M-l>    :vertical resize +2<CR>
+" Use Leader + hjkl to resize windows
+nnoremap <Leader> j    :resize -2<CR>
+nnoremap <Leader> k    :resize +2<CR>
+nnoremap <Leader> h    :vertical resize -2<CR>
+nnoremap <Leader> l    :vertical resize +2<CR>
 
 nnoremap <leader>t :tabn<CR>
 nnoremap <leader>w :set wrap!<CR>
