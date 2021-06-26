@@ -2,7 +2,7 @@
 bspc monitor DisplayPort-2 -d I II III IV V VI
 bspc monitor DVI-D-0       -d VII VIII IX
 
-bspc monitor eDP-1 -d I II III IV V VI
+bspc monitor eDP1 -d I II III IV V VI
 
 bspc config normal_border_color  '#121212'
 bspc config active_border_color  '#121212'
