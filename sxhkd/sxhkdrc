@@ -93,9 +93,6 @@ super + b
 super + a
 	rofi-menu
 
-super + v
-	rofi-ani
-
 # Rofi: mpris
 super + x
 	rofi-mpris
