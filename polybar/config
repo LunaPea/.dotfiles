@@ -117,9 +117,7 @@ scroll-down = pulseaudio-control --volume-max 130 down
 
 [module/perc]
 type = custom/script
-exec = ~/.scripts/bat-level -p
-click-left = ~/.scripts/bat-level -t
-interval = 30
+exec = ~/.scripts/bat-level
 
 [module/mnt]
 type = custom/script
@@ -161,6 +159,8 @@ ws-icon-17 = URxvt firefox;
 ws-icon-18 = Microsoft Teams - Preview firef;
 ws-icon-19 = Anki;﬷
 ws-icon-20 = Alacritty;
+ws-icon-21 = Zathura;
+ws-icon-22 = mpv;
 ws-icon-default = 
 
 label-unfocused = %icon% 
