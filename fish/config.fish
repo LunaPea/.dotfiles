@@ -86,7 +86,7 @@ set fish_greeting
 
 switch (cat /etc/hostname)
 case "arch"
-  alias ssh-connect='sudo nmap -p 22 192.168.1.0/24 | grep "Ruckus Wireless" --before-context 5 | grep "Nmap scan report for" | cut -d"(" -f2 | tr -d ")"'
+  alias ssh-connect='sudo nmap -p 22 192.168.1.0/24 | grep "Intel Corporate" --before-context 5 | grep "Nmap scan report for" | cut -d"(" -f2 | tr -d ")"'
 case "arch-dell"
   alias ssh-connect='ssh luna@(sudo nmap -p 22 192.168.1.0/24 | grep "ASRock Incorporation" --before-context 5 | grep "Nmap scan report for" | cut -d"(" -f2 | tr -d ")")'
 end
