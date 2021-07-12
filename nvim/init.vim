@@ -99,6 +99,8 @@ nnoremap <silent> <leader>gf :GFiles<CR>
 
 nnoremap <silent> <leader>d :Git diff %<CR>
 
+nnoremap <silent> <leader>r :w<CR>:e<CR>
+
 " For global replace
 nnoremap gr gD:%s///gc<left><left><left>
 
