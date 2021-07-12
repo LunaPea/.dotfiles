@@ -3,6 +3,7 @@
 export SXHKD_SHELL=/bin/sh
 export LFS=/mnt/lfs
 
+export SUDO_ASKPASS="/home/luna/.scripts/rofi/rofi-askpass"
 export SHELL="fish"
 export LC_ALL="en_US.UTF-8"
 export EDITOR="nvim"
