@@ -85,6 +85,10 @@ export PATH="/home/luna/.local/bin/:$PATH"
 export PATH="/home/michal/.local/bin/:$PATH"
 set fish_greeting
 
+function calc
+  printf "%s\n" "$argv" | bc -l
+end
+
 switch (cat /etc/hostname)
 case "arch"
   alias ssh-connect='sudo nmap -p 22 192.168.1.0/24 | grep "Intel Corporate" --before-context 5 | grep "Nmap scan report for" | cut -d"(" -f2 | tr -d ")"'
