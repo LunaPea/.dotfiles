@@ -3,6 +3,7 @@
 export SXHKD_SHELL=/bin/sh
 export LFS=/mnt/lfs
 
+export RADV_PERFTEST=aco
 export SUDO_ASKPASS="/home/luna/.scripts/rofi/rofi-askpass"
 export SHELL="fish"
 export LC_ALL="en_US.UTF-8"
@@ -74,8 +75,8 @@ alias cp="cp -rip"
 alias mv='mv -i'
 alias rm='rm -i'
 
-alias pacu='sudo pacman -Syu --noconfirm | lolcat'
-alias pac='sudo pacman -Sy --color=auto'
+alias pacu='sudo pacman -Syu --noconfirm'
+alias pac='sudo pacman -S --color=auto'
 alias pacer='sudo pacman -Rns --color=auto'
 
 alias android-mnt='jmtpfs ~/redmi/'
