@@ -1,6 +1,28 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
+SETUVAR _fish_abbr__3A_q:quit
+SETUVAR _fish_abbr__3A_wq:quit
+SETUVAR _fish_abbr_ayy:yay
+SETUVAR _fish_abbr_ayyr:yay\x20\x2dRns
+SETUVAR _fish_abbr_back:cd\x20\x2d
+SETUVAR _fish_abbr_c:clear
+SETUVAR _fish_abbr_cl:clear
+SETUVAR _fish_abbr_dc:cd
+SETUVAR _fish_abbr_lc:clear
+SETUVAR _fish_abbr_netscrcpy:scrcpy\x20\x2dm\x20720\x20\x2db\x20800000
+SETUVAR _fish_abbr_netuse:lsof\x20\x2dP\x20\x2di\x20\x2dn
+SETUVAR _fish_abbr_pac:sudo\x20pacman
+SETUVAR _fish_abbr_pacr:sudo\x20pacman\x20\x2dRns
+SETUVAR _fish_abbr_pacu:sudo\x20pacman\x20\x2dSyu\x20\x2d\x2dnoconfirm
+SETUVAR _fish_abbr_r:ranger
+SETUVAR _fish_abbr_sizeof:du\x20\x2dsh
+SETUVAR _fish_abbr_vim:nvim
+SETUVAR _fish_abbr_vm:mv
+SETUVAR _fish_abbr_x:exit
+SETUVAR _fish_abbr_yayr:yay\x20\x2dRns
+SETUVAR _fish_abbr_yya:yay
+SETUVAR _fish_abbr_yyar:yay\x20\x2dRns
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:cyan
