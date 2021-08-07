@@ -1,8 +1,8 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
-SETUVAR _fish_abbr__3A_q:quit
-SETUVAR _fish_abbr__3A_wq:quit
+SETUVAR _fish_abbr__3A_q:exit
+SETUVAR _fish_abbr__3A_wq:exit
 SETUVAR _fish_abbr_ayy:yay
 SETUVAR _fish_abbr_ayyr:yay\x20\x2dRns
 SETUVAR _fish_abbr_back:cd\x20\x2d
