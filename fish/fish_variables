@@ -12,7 +12,7 @@ SETUVAR _fish_abbr_dc:cd
 SETUVAR _fish_abbr_lc:clear
 SETUVAR _fish_abbr_netscrcpy:scrcpy\x20\x2dm\x20720\x20\x2db\x20800000
 SETUVAR _fish_abbr_netuse:lsof\x20\x2dP\x20\x2di\x20\x2dn
-SETUVAR _fish_abbr_pac:sudo\x20pacman
+SETUVAR _fish_abbr_pac:sudo\x20pacman\x20\x2dS
 SETUVAR _fish_abbr_pacr:sudo\x20pacman\x20\x2dRns
 SETUVAR _fish_abbr_pacu:sudo\x20pacman\x20\x2dSyu\x20\x2d\x2dnoconfirm
 SETUVAR _fish_abbr_r:ranger

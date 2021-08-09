@@ -164,7 +164,7 @@ super + grave
 
 # close and kill
 
-super + {_,shift + } F4
+super + {_,shift + } q
 	bspc node -{c,k}
 
 # alternate between the tiled and monocle layout
