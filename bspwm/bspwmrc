@@ -49,7 +49,6 @@ xsetroot  -cursor_name left_ptr
 xmodmap   -e 'keycode 135 = Super_R'
 killall xcape 2>/dev/null; xcape -e 'Super_L=Escape' # when caps pressed once - act like escape
 
-pgrep 'pidswallow' || pidswallow -gl &
 pgrep 'sxhkd' ||      sxhkd &
 pgrep 'unclutter' || unclutter &
 killall greenclip;    greenclip daemon &
