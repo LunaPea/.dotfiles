@@ -1,3 +1,7 @@
+element-text, element-icon {
+    background-color: inherit;
+    text-color:       inherit;
+}
 * {
     selected-normal-foreground:  #55BCCE;
     foreground:                  #F1EBEB;
