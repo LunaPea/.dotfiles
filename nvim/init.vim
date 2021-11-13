@@ -120,6 +120,8 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-commentary'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'octol/vim-cpp-enhanced-highlight'
+Plugin 'c.vim'
 
 call vundle#end()               " required
 filetype plugin indent on       " required

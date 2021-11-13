@@ -94,8 +94,8 @@ super + a
 	rofi-menu
 
 # Rofi: mpris
-super + x
-	rofi-mpris
+# super + x
+	# rofi-mpris
 
 # Rofi: game launcher
 super + g
