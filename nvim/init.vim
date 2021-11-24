@@ -120,7 +120,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-commentary'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'octol/vim-cpp-enhanced-highlight'
+Plugin 'bfrg/vim-cpp-modern'
 Plugin 'c.vim'
 
 call vundle#end()               " required

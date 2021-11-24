@@ -62,7 +62,7 @@ font-0 = JetBrainsMono Nerd Font:size=10:antialias=true;2
 font-1 = Noto Sans CJK JP:size=9:antialias=true:0
 
 modules-left = bspwm xwindow 
-modules-right = pulseaudio qbittorrent notification-xkcd date
+modules-right = pulseaudio todo qbittorrent date
 
 tray-position = right
 ; tray-padding = 0
@@ -96,6 +96,11 @@ wm-restack = bspwm
 type = custom/script  
 exec = ~/.scripts/polybar-qbittorrent
 interval = 0.1
+
+[module/todo]
+type = custom/script
+exec = ~/.scripts/todo -s 5
+tail = true
 
 [module/notification-xkcd]
 type = custom/script
