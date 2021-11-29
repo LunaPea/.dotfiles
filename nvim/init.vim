@@ -90,15 +90,14 @@ nnoremap <Leader> k    :resize +2<CR>
 nnoremap <Leader> h    :vertical resize -2<CR>
 nnoremap <Leader> l    :vertical resize +2<CR>
 
-nnoremap <leader>t :tabn<CR>
-nnoremap <leader>w :set wrap!<CR>
-
 nnoremap <silent> <leader>f :NERDTreeToggle<CR>
 nnoremap <silent> <leader>ff :NERDTreeFind 
 nnoremap <silent> <leader>gf :GFiles<CR>
 
+nnoremap <leader>t :tabn<CR>
+nnoremap <leader>w :set wrap!<CR>
+nnoremap <leader>] :YcmCompleter GoTo<CR>
 nnoremap <silent> <leader>d :Git diff %<CR>
-
 nnoremap <silent> <leader>r :w<CR>:e<CR>
 
 " For global replace
@@ -125,3 +124,5 @@ Plugin 'c.vim'
 
 call vundle#end()               " required
 filetype plugin indent on       " required
+
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o # disable auto expand comments
