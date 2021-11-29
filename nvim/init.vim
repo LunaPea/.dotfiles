@@ -125,4 +125,4 @@ Plugin 'c.vim'
 call vundle#end()               " required
 filetype plugin indent on       " required
 
-autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o # disable auto expand comments
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o " disable auto expand comments
