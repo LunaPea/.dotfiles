@@ -86,4 +86,22 @@ function print_fish_colors --description 'Shows the various fish colors being us
     end
 end
 
+echo -en "\e]P0121212" #black
+echo -en "\e]P8303030" #darkgrey
+echo -en "\e]P1dc2566" #darkred
+echo -en "\e]P9fa2772" #red
+echo -en "\e]P28fc029" #darkgreen
+echo -en "\e]PAa7e22e" #green
+echo -en "\e]P3d4c96e" #brown
+echo -en "\e]PBe7db75" #yellow
+echo -en "\e]P455bcce" #darkblue
+echo -en "\e]PC66d9ee" #blue
+echo -en "\e]P59358fe" #darkmagenta
+echo -en "\e]PDae82ff" #magenta
+echo -en "\e]P656b7a5" #darkcyan
+echo -en "\e]PE66efd5" #cyan
+echo -en "\e]P7acada1" #lightgrey
+echo -en "\e]PFcfd0c2" #white
+clear #for background artifacting
+
 ~/.config/fish/startx

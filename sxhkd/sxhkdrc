@@ -16,7 +16,7 @@ super + shift + b
 
 # terminal emulator
 ctrl + alt + t
-	urxvt
+	urxvt -e nvim -c :terminal
 
 # terminal emulator
 super + alt + t
@@ -164,8 +164,8 @@ super + grave
 
 # close and kill
 
-super + {_,shift + } q
-	bspc node -{c,k}
+super + {_,shift + } q; super + {_,shift + }q
+	bspc node -{c,k}{ , }
 
 # alternate between the tiled and monocle layout
 super + w
