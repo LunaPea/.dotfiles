@@ -29,7 +29,6 @@ super + alt + t
 super + Pause
 	sleep 1; systemctl suspend
 
-
 #
 # Rofi
 #
@@ -68,10 +67,6 @@ super + Pause
 # Rofi: search
 super + s
 	rofi-search
-
-# Rofi: launch menu
-super + r
-	rofi drun -show drun -show-icons
 
 # Rofi: swich windows
 super + d
@@ -120,26 +115,31 @@ super + m
 super + u
 	rofi-umount
 
+# Rofi: spotify
+super + x; super + x
+	~/rofi-spotify
 
-# launch Minecraft
-super + alt + m
-	~/.scripts/BLauncher
+# Spotify play-pause
+super + x; super + p
+	playerctl -p spotify play-pause
+
+
+# Rofi: launch menu
+super + r; super + r
+	rofi drun -show drun -show-icons
 
 # launch teams
-super + alt + t
-	teams
+super + r; super + t
+	gtk-launch teams.desktop
 
 # launch spotify
-super + alt + s
+super + r; super + s
 	gtk-launch spotify-adblock.desktop
 
 # launch firefox
-super + alt + f
-	firefox
+super + r; super + f
+	gtk-launch firefox.desktop
 
-# launch vieb
-super + alt + v
-	vieb
 
 #
 # bspwm hotkeys
@@ -148,11 +148,6 @@ super + alt + v
 # balance the windows
 super + alt + b
 	~/.scripts/bspwm-balance
-
-super + z
-	urxvt -e\
-	pkill -f bsp-layout;\
-	bsp-layout set (echo -en "rgrid\ntiled\nmonocle" | rofi -dmenu)
 
 # swich monitors
 super + grave
