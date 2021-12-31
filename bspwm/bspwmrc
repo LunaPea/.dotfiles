@@ -57,6 +57,7 @@ killall btops;        btops &
 /usr/lib/kdeconnectd &
 sudo vnstatd -d
 dunst &
+xrandr --output DVI-D-0 --gamma 0.5:0.5:0.5
 
 sudo modprobe btusb
 sudo systemctl start bluetooth
