@@ -52,7 +52,6 @@ nnoremap k gk
 nnoremap gk k
 
 inoremap jj <ESC>
-tnoremap jj <C-\><C-n>
 tnoremap <ESC><ESC> <C-\><C-n>
 
 tnoremap <C-h> <C-\><C-N><C-w>h
