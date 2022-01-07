@@ -10,6 +10,7 @@ SETUVAR _fish_abbr_c:clear
 SETUVAR _fish_abbr_cl:clear
 SETUVAR _fish_abbr_dc:cd
 SETUVAR _fish_abbr_lc:clear
+SETUVAR _fish_abbr_mpv_3A_mpv:\x2d\x2dno\x2dinput\x2ddefault\x2dbindings
 SETUVAR _fish_abbr_netscrcpy:scrcpy\x20\x2dm\x20720\x20\x2db\x20800000
 SETUVAR _fish_abbr_netuse:lsof\x20\x2dP\x20\x2di\x20\x2dn
 SETUVAR _fish_abbr_nvim:nvr\x20\x2dO

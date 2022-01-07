@@ -20,3 +20,4 @@ ln -s ~/.dotfiles/URxvt ~/.config/URxvt
 ln -s ~/.dotfiles/Xcolor-monokai ~/.config/Xcolor
 ln -s ~/.dotfiles/alacritty.yml ~/.config/
 ln -s ~/.dotfiles/alacritty-colors.yml ~/.config/
+ln -s ~/.dotfiles/mpv/ ~/.config/mpv

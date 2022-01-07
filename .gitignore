@@ -3,3 +3,4 @@ nvim/bundle/*
 ranger/plugins/*
 ranger/__pycache__
 nvim/.netrwhist
+mpv/watch_later/*
