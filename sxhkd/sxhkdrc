@@ -117,7 +117,7 @@ super + u
 
 # Rofi: spotify
 super + x; super + x
-	~/rofi-spotify
+	rofi-spotify
 
 # Spotify play-pause
 super + x; super + p
@@ -148,6 +148,7 @@ super + r; super + f
 # balance the windows
 super + alt + b
 	~/.scripts/bspwm-balance
+
 
 # swich monitors
 super + grave
