@@ -123,6 +123,13 @@ super + x; super + x
 super + x; super + p
 	playerctl -p spotify play-pause
 
+# terminal emulator
+super + r; super + t; super + t
+	urxvt -e nvim -c :terminal
+
+# Rofi: ssh
+super + r; super + t; super + s
+	rofi -show shh
 
 # Rofi: launch menu
 super + r; super + r
