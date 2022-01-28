@@ -129,15 +129,11 @@ super + r; super + t; super + t
 
 # Rofi: ssh
 super + r; super + t; super + s
-	rofi -show shh
+	rofi -show ssh
 
 # Rofi: launch menu
 super + r; super + r
 	rofi drun -show drun -show-icons
-
-# launch teams
-super + r; super + t
-	gtk-launch teams.desktop
 
 # launch spotify
 super + r; super + s
