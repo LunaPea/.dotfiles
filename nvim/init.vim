@@ -78,6 +78,7 @@ nnoremap <silent>ss :split<CR>
 nnoremap <silent>sv :vsplit<CR>
 
 map gf :tabnew <cfile><CR>
+nnoremap <leader>n :tabnew<CR><ESC>:term<CR>
 
 nnoremap <silent> <M-1> :tabn 1<CR>
 nnoremap <silent> <M-2> :tabn 2<CR>
@@ -186,6 +187,8 @@ Plugin 'VundleVim/Vundle.vim'  " required
 " source ~/.config/nvim/plugins/nerdtree.vim
 " source ~/.config/nvim/plugins/vim-sensible.vim
 " Plugin 'glacambre/firenvim'
+" Plugin 'github/copilot.vim'
+" Plugin 'DingDean/wgsl.vim'
 
 source ~/.config/nvim/plugins/lightline.vim
 source ~/.config/nvim/plugins/youcompleteme.vim
@@ -201,8 +204,6 @@ source ~/.config/nvim/plugins/goyo.vim
 source ~/.config/nvim/plugins/markdown-preview.vim
 source ~/.config/nvim/plugins/vim-easymotion.vim
 source ~/.config/nvim/plugins/vim-table-mode.vim
-Plugin 'github/copilot.vim'
-Plugin 'DingDean/wgsl.vim'
 
 call vundle#end()               " required
 filetype plugin indent on       " required
