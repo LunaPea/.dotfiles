@@ -1,8 +1,27 @@
 nnoremap <Space> <NOP>
 let g:mapleader = "\<Space>"
+
+" checking what machine neovim is ran on
+function! WhichEnv() abort
+	if has('win64') || has('win32') || has('win16')
+		return 'WINDOWS'
+	else
+		return toupper(substitute(system('uname'), '\n', '', ''))
+	endif
+endfunction
+
+if (WhichEnv() =~# 'WINDOWS')
+	let g:nvim_dir=expand($VIM) . '/'
+endif
+if (WhichEnv() =~# 'LINUX')
+	let g:nvim_dir='~/.config/nvim/'
+endif
+
+let g:vundle_plugin_path = g:nvim_dir . 'bundle/'
+
 au! BufWritePost $MYVIMRC source %
 colo molokai
-source ~/.config/nvim/terminal-colors.vim
+
 syntax enable
 
 set hidden
@@ -35,7 +54,7 @@ set smartcase
 set ignorecase
 set showmatch
 set nobackup
-set undodir=~/.config/nvim/undodir
+execute 'set undodir=' . g:nvim_dir . 'undodir'
 set undofile
 set scrolloff=8
 set sidescrolloff=8
@@ -44,7 +63,6 @@ set conceallevel=2
 " 
 " key mappings
 " 
-
 
 nnoremap j gj
 nnoremap gj j
@@ -182,8 +200,8 @@ highlight default Search term=bold cterm=bold ctermbg=24
 set nocompatible               " be improved, required
 filetype off                   " required
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.config/nvim/bundle/Vundle.vim
-call vundle#begin()            " required
+execute 'set rtp+=' . g:vundle_plugin_path . 'Vundle.vim'
+call vundle#begin(g:vundle_plugin_path)            " required
 Plugin 'VundleVim/Vundle.vim'  " required
 
 " source ~/.config/nvim/plugins/undotree.vim
@@ -191,24 +209,23 @@ Plugin 'VundleVim/Vundle.vim'  " required
 " source ~/.config/nvim/plugins/vim-sensible.vim
 " Plugin 'glacambre/firenvim'
 " Plugin 'github/copilot.vim'
-
 " Plugin 'DingDean/wgsl.vim'
 
-source ~/.config/nvim/plugins/lightline.vim
-source ~/.config/nvim/plugins/copilot.vim
-source ~/.config/nvim/plugins/youcompleteme.vim
-source ~/.config/nvim/plugins/vim-surround.vim
-source ~/.config/nvim/plugins/vim-fugitive.vim
-source ~/.config/nvim/plugins/vim-commentary.vim
-source ~/.config/nvim/plugins/vim-gitgutter.vim
-source ~/.config/nvim/plugins/vim-cpp-modern.vim
-source ~/.config/nvim/plugins/tabular.vim
-source ~/.config/nvim/plugins/vim-markdown.vim
-source ~/.config/nvim/plugins/vim-css-color.vim
-source ~/.config/nvim/plugins/goyo.vim
-source ~/.config/nvim/plugins/markdown-preview.vim
-source ~/.config/nvim/plugins/vim-easymotion.vim
-source ~/.config/nvim/plugins/vim-table-mode.vim
+execute "source " . g:nvim_dir . "plugins/lightline.vim"
+execute "source " . g:nvim_dir . "plugins/copilot.vim"
+execute "source " . g:nvim_dir . "plugins/youcompleteme.vim"
+execute "source " . g:nvim_dir . "plugins/vim-surround.vim"
+execute "source " . g:nvim_dir . "plugins/vim-fugitive.vim"
+execute "source " . g:nvim_dir . "plugins/vim-commentary.vim"
+execute "source " . g:nvim_dir . "plugins/vim-gitgutter.vim"
+execute "source " . g:nvim_dir . "plugins/vim-cpp-modern.vim"
+execute "source " . g:nvim_dir . "plugins/tabular.vim"
+execute "source " . g:nvim_dir . "plugins/vim-markdown.vim"
+execute "source " . g:nvim_dir . "plugins/vim-css-color.vim"
+execute "source " . g:nvim_dir . "plugins/goyo.vim"
+execute "source " . g:nvim_dir . "plugins/markdown-preview.vim"
+execute "source " . g:nvim_dir . "plugins/vim-easymotion.vim"
+execute "source " . g:nvim_dir . "plugins/vim-table-mode.vim"
 
 call vundle#end()               " required
 filetype plugin indent on       " required
