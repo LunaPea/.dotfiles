@@ -66,7 +66,7 @@ super + Pause
 
 # Rofi: search
 super + s
-	rofi-search
+	search
 
 # Rofi: swich windows
 super + d
@@ -120,16 +120,22 @@ super + x; super + x
 	rofi-spotify
 
 # Spotify play-pause
-super + x; super + p
+super + x; super + space
 	playerctl -p spotify play-pause
 
-# terminal emulator
-super + r; super + t; super + t
-	urxvt -e nvim -c :terminal
+super + x; super + n
+	playerctl -p spotify next
 
-# Rofi: ssh
-super + r; super + t; super + s
-	rofi -show ssh
+super + x; super + p
+	playerctl -p spotify previous
+
+# terminal emulator
+super + r; super + t
+	urxvt -e nvim +term
+
+# # Rofi: ssh
+# super + r; super + t; super + s
+# 	rofi -show ssh
 
 # Rofi: launch menu
 super + r; super + r

@@ -57,6 +57,7 @@ killall btops;        btops &
 /usr/lib/kdeconnectd &
 sudo vnstatd -d
 dunst &
+lxpolkit &
 xrandr --output DVI-D-0 --gamma 0.7:0.7:0.7
 
 sudo modprobe btusb

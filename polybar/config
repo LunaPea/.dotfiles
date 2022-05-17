@@ -39,7 +39,7 @@ font-0 = JetBrainsMono Nerd Font:size=10:antialias=true;2
 font-1 = Noto Sans CJK JP:size=9:antialias=true
 
 modules-left = bspwm xwindow 
-modules-right = pulseaudio ping_ms qbittorrent perc date
+modules-right = spotify pulseaudio ping_ms qbittorrent perc date
 
 tray-position = right
 
@@ -62,7 +62,7 @@ font-0 = JetBrainsMono Nerd Font:size=10:antialias=true;2
 font-1 = Noto Sans CJK JP:size=9:antialias=true:0
 
 modules-left = bspwm xwindow 
-modules-right = pulseaudio qbittorrent date
+modules-right = spotify pulseaudio qbittorrent date
 
 tray-position = right
 ; tray-padding = 0
@@ -92,6 +92,13 @@ wm-restack = bspwm
 
 ; custom scripts
 
+[module/spotify]
+type = custom/script
+exec = ~/.scripts/polybar-spotify
+interval = 0.1
+; scrool-right = playerctl -p spotify seek +5%
+; scrool-left = playerctl -p spotify seek -5%
+
 [module/qbittorrent]  
 type = custom/script  
 exec = ~/.scripts/polybar-qbittorrent
@@ -114,6 +121,7 @@ tail = true
 label-foreground = ${colors.foreground}
 
 exec = pulseaudio-control --sink-nicknames-from "device.description" --sink-nickname "alsa_output.pci-0000_0b_00.3.analog-stereo:  Speakers" listen
+exec = pulseaudio-control --sink-nicknames-from "device.description" --sink-nickname "alsa_output.pci-0000_0b_00.3.analog-stereo:  Speakers" --sink-nickname "alsa_output.pci-0000_00_1b.0.analog-stereo:Speakers" listen
 click-right = exec pavucontrol &
 click-left = pulseaudio-control togmute
 click-middle = pulseaudio-control --sink-blacklist "alsa_output.pci-0000_09_00.1.hdmi-stereo-extra2" next-sink

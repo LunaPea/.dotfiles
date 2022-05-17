@@ -51,6 +51,9 @@ nnoremap gj j
 nnoremap k gk
 nnoremap gk k
 
+nnoremap <DOWN> gj
+nnoremap <UP> gk
+
 inoremap jj <ESC>
 tnoremap <ESC><ESC> <C-\><C-n>
 
@@ -121,7 +124,7 @@ vnoremap Y myY'y
 " map <Leader>ve :tabnew $MYVIMRC<CR>
 " map <Leader>vr :source $MYVIMRC<CR>
 
-nnoremap <Leader><leader> :noh<cr>
+nnoremap <Leader><leader><leader> :noh<cr>
 nmap <leader>x :!xdg-open %<CR><CR>
 
 nnoremap <leader>sp :normal! mz[s1z=`z<CR>
@@ -188,9 +191,11 @@ Plugin 'VundleVim/Vundle.vim'  " required
 " source ~/.config/nvim/plugins/vim-sensible.vim
 " Plugin 'glacambre/firenvim'
 " Plugin 'github/copilot.vim'
+
 " Plugin 'DingDean/wgsl.vim'
 
 source ~/.config/nvim/plugins/lightline.vim
+source ~/.config/nvim/plugins/copilot.vim
 source ~/.config/nvim/plugins/youcompleteme.vim
 source ~/.config/nvim/plugins/vim-surround.vim
 source ~/.config/nvim/plugins/vim-fugitive.vim
@@ -216,6 +221,8 @@ filetype plugin indent on       " required
 "
 au FileType * set formatoptions=tcroqln
 au FileType * set com=s1:/*,mb:*,ex:*/,://,b:#,:%,:XCOMM,n:>,b:-\ [\ ],b:-\ [x],b:\"
+autocmd BufRead,BufNewFile *.porth set filetype=porth
+autocmd BufRead,BufNewFile *.porth set expandtab
 
 if filereadable(@%) == 0
 	term

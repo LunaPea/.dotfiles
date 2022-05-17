@@ -15,6 +15,7 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 export JAVA_OPTS="--illegal-access=permit"
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 export PATH="/home/wera/.local/bin/:$PATH"
+export TERM=xterm-color
 
 alias mnthelp='~/.scripts/mnthelp'
 alias ytWL='cd ~/.WL & yt-dlp --cookies ~/Documents/cookies-yt.txt --download-archive downloaded.txt --no-post-overwrites --embed-thumbnail -ciw -f mp4 -o "%(playlist_index)s-%(title)s__%(uploader)s.%(ext)s" "https://www.youtube.com/playlist?list=WL"'

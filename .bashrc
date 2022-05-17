@@ -25,3 +25,10 @@ if [[ "$(tty)" = "/dev/tty1" ]]; then
 		startx
 fi
 . "$HOME/.cargo/env"
+
+case "$-" in
+    *i*)        ;;
+    *)   return ;;
+esac
+fish
+exit
