@@ -12,6 +12,7 @@ endfunction
 
 if (WhichEnv() =~# 'WINDOWS')
 	let g:nvim_dir=expand($VIM) . '/'
+	execute "set rtp+=" . g:nvim_dir
 endif
 if (WhichEnv() =~# 'LINUX')
 	let g:nvim_dir='~/.config/nvim/'
