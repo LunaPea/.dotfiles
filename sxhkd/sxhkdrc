@@ -16,7 +16,7 @@ super + shift + b
 
 # terminal emulator
 ctrl + alt + t
-	urxvt -e nvim -c :terminal
+	urxvt -e ~/.scripts/nvim
 
 # terminal emulator
 super + alt + t
@@ -131,7 +131,7 @@ super + x; super + p
 
 # terminal emulator
 super + r; super + t
-	urxvt -e nvim +term
+	urxvt -e ~/.scripts/nvim
 
 # # Rofi: ssh
 # super + r; super + t; super + s
