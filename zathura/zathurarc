@@ -27,3 +27,5 @@ set notification-fg \#55bcce
 
 set recolor true
 set recolor-keephue
+
+map c set recolor true
