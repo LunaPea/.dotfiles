@@ -21,6 +21,8 @@ export ANDROID_SDK_ROOT=/opt/android-sdk/
 export PATH="$PATH:/opt/android-sdk/cmdline-tools/latest/bin/"
 export ANDROID_AVD_HOME=~/.android/avd/
 
+[ -f /usr/share/autojump/autojump.fish ]; and source /usr/share/autojump/autojump.fish
+
 alias mnthelp='~/.scripts/mnthelp'
 alias ytWL='cd ~/.WL & yt-dlp --cookies ~/Documents/cookies-yt.txt --download-archive downloaded.txt --no-post-overwrites --embed-thumbnail -ciw -f mp4 -o "%(playlist_index)s-%(title)s__%(uploader)s.%(ext)s" "https://www.youtube.com/playlist?list=WL"'
 alias ytWHAT='cd ~/.WL/.WHAT/ & yt-dlp --cookies ~/Documents/cookies-yt.txt --download-archive downloaded.txt --no-post-overwrites --embed-thumbnail -ciw -f mp4 -o "%(playlist_index)s-%(title)s__%(uploader)s.%(ext)s" "https://www.youtube.com/playlist?list=PLnzdrav5AL-nA7dmSbVQGd6-PIzVPo3Rs"'

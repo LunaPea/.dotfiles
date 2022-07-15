@@ -8,6 +8,7 @@ SETUVAR _fish_abbr_ayyr:yay\x20\x2dRns
 SETUVAR _fish_abbr_back:cd\x20\x2d
 SETUVAR _fish_abbr_c:clear
 SETUVAR _fish_abbr_cl:clear
+SETUVAR _fish_abbr_copy:xclip\x20\x2dselection\x20c
 SETUVAR _fish_abbr_dc:cd
 SETUVAR _fish_abbr_feh:feh\x20\x2d\x2dscale\x2ddown\x20\x2d\x2dauto\x2dzoom
 SETUVAR _fish_abbr_lc:clear
