@@ -1,1 +1,1 @@
-Plugin 'junegunn/goyo.vim'
+Plug 'junegunn/goyo.vim'

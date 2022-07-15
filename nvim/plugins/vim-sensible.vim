@@ -1,1 +1,1 @@
-Plugin 'tpope/vim-sensible'
+Plug 'tpope/vim-sensible'

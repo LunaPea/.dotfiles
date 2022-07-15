@@ -1,1 +1,1 @@
-Plugin 'bfrg/vim-cpp-modern'
+Plug 'bfrg/vim-cpp-modern'

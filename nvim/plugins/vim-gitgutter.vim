@@ -1,4 +1,4 @@
-Plugin 'airblade/vim-gitgutter'
+Plug 'airblade/vim-gitgutter'
 
 highlight SignColumn 	  ctermbg=8
 highlight GitGutterAdd    ctermfg=10 ctermbg=8 

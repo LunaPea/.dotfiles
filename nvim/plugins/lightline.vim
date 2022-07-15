@@ -1,1 +1,1 @@
-Plugin 'itchyny/lightline.vim'
+Plug 'itchyny/lightline.vim'

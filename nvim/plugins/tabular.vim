@@ -1,1 +1,1 @@
-Plugin 'godlygeek/tabular'
+Plug 'godlygeek/tabular'

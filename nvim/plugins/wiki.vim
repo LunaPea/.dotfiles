@@ -1,1 +1,1 @@
-Plugin 'vimwiki/vimwiki'
+Plug 'vimwiki/vimwiki'

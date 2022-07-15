@@ -18,7 +18,7 @@ if (WhichEnv() =~# 'LINUX')
 	let g:nvim_dir='~/.config/nvim/'
 endif
 
-let g:vundle_plugin_path = g:nvim_dir . 'bundle/'
+let g:plugin_path = g:nvim_dir . 'bundle/'
 
 au! BufWritePost $MYVIMRC source %
 colo molokai
@@ -200,21 +200,17 @@ highlight default Search term=bold cterm=bold ctermbg=24
 
 set nocompatible               " be improved, required
 filetype off                   " required
-" set the runtime path to include Vundle and initialize
-execute 'set rtp+=' . g:vundle_plugin_path . 'Vundle.vim'
-call vundle#begin(g:vundle_plugin_path)            " required
-Plugin 'VundleVim/Vundle.vim'  " required
+"
+call plug#begin()
 
 " source ~/.config/nvim/plugins/undotree.vim
 " source ~/.config/nvim/plugins/nerdtree.vim
 " source ~/.config/nvim/plugins/vim-sensible.vim
 " Plugin 'glacambre/firenvim'
 " Plugin 'github/copilot.vim'
-" Plugin 'DingDean/wgsl.vim'
 
 execute "source " . g:nvim_dir . "plugins/lightline.vim"
 execute "source " . g:nvim_dir . "plugins/copilot.vim"
-execute "source " . g:nvim_dir . "plugins/youcompleteme.vim"
 execute "source " . g:nvim_dir . "plugins/vim-surround.vim"
 execute "source " . g:nvim_dir . "plugins/vim-fugitive.vim"
 execute "source " . g:nvim_dir . "plugins/vim-commentary.vim"
@@ -227,8 +223,18 @@ execute "source " . g:nvim_dir . "plugins/goyo.vim"
 execute "source " . g:nvim_dir . "plugins/markdown-preview.vim"
 execute "source " . g:nvim_dir . "plugins/vim-easymotion.vim"
 execute "source " . g:nvim_dir . "plugins/vim-table-mode.vim"
+execute "source " . g:nvim_dir . "plugins/comfortable_motion.vim"
+execute "source " . g:nvim_dir . "plugins/rust.vim"
+Plug 'tpope/vim-eunuch'
+Plug 'rhysd/rust-doc.vim'
+Plug 'timonv/vim-cargo'
+Plug 'DingDean/wgsl.vim'
 
-call vundle#end()               " required
+" Use release branch (recommend)
+execute "source " . g:nvim_dir . "plugins/coc.vim"
+
+
+call plug#end()               " required
 filetype plugin indent on       " required
 
 "

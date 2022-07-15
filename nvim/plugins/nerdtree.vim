@@ -1,4 +1,4 @@
-Plugin 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdtree'
 
 let g:NERDCreateDefaultMappings = 1
 let g:NERDSpaceDelims = 1

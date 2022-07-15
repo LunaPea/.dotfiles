@@ -1,7 +1,8 @@
-Plugin 'valloric/youcompleteme'
+Plug 'valloric/youcompleteme'
 
 let g:ycm_autoclose_preview_window_after_insertion = 1
 let g:ycm_goto_buffer_command = 'split'
+" let g:ycm_rust_toolchain_root = "/home/wera/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu"
 
 nnoremap <leader>] :tab YcmCompleter GoTo<CR>
 nnoremap <leader>d :YcmCompleter GetDoc<CR>

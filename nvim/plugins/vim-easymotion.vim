@@ -1,1 +1,1 @@
-Plugin 'easymotion/vim-easymotion'
+Plug 'easymotion/vim-easymotion'

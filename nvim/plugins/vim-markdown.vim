@@ -1,1 +1,1 @@
-Plugin 'plasticboy/vim-markdown'
+Plug 'plasticboy/vim-markdown'

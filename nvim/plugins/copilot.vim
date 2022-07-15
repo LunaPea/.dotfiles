@@ -1,4 +1,4 @@
-Plugin 'github/copilot.vim'
+Plug 'github/copilot.vim'
 
 let g:copilot_no_tab_map = v:true
 imap <silent><script><expr> <C-l> copilot#Accept("\<CR>")
