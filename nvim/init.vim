@@ -21,9 +21,9 @@ endif
 let g:plugin_path = g:nvim_dir . 'bundle/'
 
 au! BufWritePost $MYVIMRC source %
-colo molokai
-
 syntax enable
+
+colo molokai
 
 set hidden
 set noshowmode
@@ -59,7 +59,7 @@ execute 'set undodir=' . g:nvim_dir . 'undodir'
 set undofile
 set scrolloff=8
 set sidescrolloff=8
-set conceallevel=2
+" set conceallevel=2
 
 " 
 " key mappings
@@ -247,7 +247,3 @@ au FileType * set formatoptions=tcroqln
 au FileType * set com=s1:/*,mb:*,ex:*/,://,b:#,:%,:XCOMM,n:>,b:-\ [\ ],b:-\ [x],b:\"
 autocmd BufRead,BufNewFile *.porth set filetype=porth
 autocmd BufRead,BufNewFile *.porth set expandtab
-
-if filereadable(@%) == 0
-	term
-endif

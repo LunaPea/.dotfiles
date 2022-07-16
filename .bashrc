@@ -8,10 +8,9 @@
 alias x='exit'
 alias cl='clear'
 
-export MPD_HOST="/home/wera/.config/mpd/socket"
 PS1='[\u@\h \W]\$ '
 
-export SHELL="fish"
+export SHELL="bash"
 export LC_ALL="en_US.UTF-8"
 export EDITOR="nvim"
 export TERMINAL="urxvt"
@@ -19,17 +18,16 @@ export BROWSER="firefox"
 export QT_QPA_PLATFORMTHEME=gtk2
 export PATH=$PATH:$HOME/.local/bin/
 export _JAVA_AWT_WM_NONREPARENTING=1
+
 source /usr/share/nvm/init-nvm.sh
 
 
+if [[ "$(tty)" = "/dev/tty2" ]]; then
+		startx
+fi
 if [[ "$(tty)" = "/dev/tty1" ]]; then
 		startx
 fi
-. "$HOME/.cargo/env"
 
-case "$-" in
-    *i*)        ;;
-    *)   return ;;
-esac
 fish
 exit
