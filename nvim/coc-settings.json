@@ -1,6 +1,14 @@
 {
-	"rust-analyzer.runnables.cargoExtraArgs": [
-        "+beta-msvc"
-	],
-	"rust-analyzer.server.path": "rust-analyzer"
+  "coc.preferences.formatOnSaveFiletypes": ["json", "rust", "python"],
+  "diagnostic.errorSign": ">>",
+  "diagnostic.warningSign": "!",
+  "diagnostic.infoSign": "•",
+  "diagnostic.hintSign": "•",
+  "diagnostic.virtualText": true,
+  "diagnostic.checkCurrentLine": true,
+  "links.tooltip": true,
+  "diagnostic.level": "information",
+  "signature.target": "echo",
+  "notification.border": false,
+  "notification.marginRight": 5
 }
