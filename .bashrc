@@ -2,6 +2,7 @@
 # ~/.bashrc
 #
 
+export PATH=$PATH:$HOME/.local/bin/:$HOME/.cargo/bin
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
@@ -16,7 +17,6 @@ export EDITOR="nvim"
 export TERMINAL="urxvt"
 export BROWSER="firefox"
 export QT_QPA_PLATFORMTHEME=gtk2
-export PATH=$PATH:$HOME/.local/bin/
 export _JAVA_AWT_WM_NONREPARENTING=1
 
 source /usr/share/nvm/init-nvm.sh
@@ -28,6 +28,7 @@ fi
 if [[ "$(tty)" = "/dev/tty1" ]]; then
 		startx
 fi
-
-fish
-exit
+if [[ "$(tty)" = "/dev/tty3" ]]; then
+	fish
+	exit
+fi

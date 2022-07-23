@@ -128,7 +128,7 @@ nnoremap <silent>sv :vsplit<CR>
 map gf :tabnew <cfile><CR>
 
 " open new terminal tab
-nnoremap <leader>n :tabnew<CR><ESC>:term<CR>
+nnoremap <leader>n :tabnew<CR><ESC>:term fish<CR>
 
 " navigate tabs with Alt + number
 nnoremap <silent> <M-1> :tabn 1<CR>
@@ -247,7 +247,7 @@ augroup END
 
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif " jump to last position when loading a file
 
-command Termvsplit vsplit | term
+command Termvsplit vsplit | term fish
 cnoreabbrev termv Termvsplit
 
 au TextYankPost * silent! lua vim.highlight.on_yank {higroup="IncSearch", timeout=200}
@@ -292,7 +292,6 @@ Plug 'junegunn/goyo.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'iamcco/markdown-preview.nvim'
 Plug 'scrooloose/nerdtree'
-Plug 'github/copilot.vim'
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-eunuch'
@@ -420,26 +419,6 @@ nnoremap <silent> <C-u> :call comfortable_motion#flick(-50)<CR>
 " nnoremap <silent> <C-b> :call comfortable_motion#flick(-200)<CR>
 
 "
-" copilot.vim
-"
-let g:copilot_no_tab_map = v:true
-imap <silent><script><expr> <C-l> copilot#Accept("\<CR>")
-
-" enable :Copilot split every time you enter insert mode if copilot_slit is set to 1
-let g:copilot_split = 0
-au InsertEnter * if g:copilot_split | :Copilot split | endif
-" hotkey to set 0 if set to 1
-function! CopilotSplit()
-	if g:copilot_split
-		let g:copilot_split = 0
-	else
-		let g:copilot_split = 1
-	endif
-endfunction
-
-nmap <leader>c :call CopilotSplit()<CR>
-
-"
 " NERDTree
 "
 
@@ -456,7 +435,8 @@ nnoremap <silent> <leader>ff :NERDTreeFind
 " rust.vim
 "
 
-" let g:rustfmt_autosave = 1
+autocmd BufRead,BufNewFile *.rs nmap <leader>r :CargoRun<CR>
+let g:rustfmt_autosave = 1
 let g:rust_fold = 1
 
 "
@@ -502,4 +482,3 @@ au FileType * set com=s1:/*,mb:*,ex:*/,://,b:#,:%,:XCOMM,n:>,b:-\ [\ ],b:-\ [x],
 " porth
 autocmd BufRead,BufNewFile *.porth set filetype=porth
 autocmd BufRead,BufNewFile *.porth set expandtab
-
