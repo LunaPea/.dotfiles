@@ -477,7 +477,7 @@ nnoremap <leader>t :TableModeToggle<CR>
 " other
 
 au FileType * set formatoptions=tcroqln
-au FileType * set com=s1:/*,mb:*,ex:*/,://,b:#,:%,:XCOMM,n:>,b:-\ [\ ],b:-\ [x],b:\"
+au FileType * set com=s1:/*,mb:*,ex:*/,://,b:#,:%,:XCOMM,n:>,b:-\ [\ ],b:-\ [x],b:\",b:-
 
 " porth
 autocmd BufRead,BufNewFile *.porth set filetype=porth
