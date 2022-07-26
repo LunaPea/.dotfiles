@@ -128,7 +128,8 @@ nnoremap <silent>sv :vsplit<CR>
 map gf :tabnew <cfile><CR>
 
 " open new terminal tab
-nnoremap <leader>n :tabnew<CR><ESC>:term fish<CR>
+" this mess makes it so the filename in tabline and lightline apears as term instead of a mess
+nnoremap <silent><leader>n :tabnew<CR><ESC>:term fish -C cd\ ./\ \\#/term<CR>
 
 " navigate tabs with Alt + number
 nnoremap <silent> <M-1> :tabn 1<CR>
@@ -247,7 +248,8 @@ augroup END
 
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif " jump to last position when loading a file
 
-command Termvsplit vsplit | term fish
+" this mess makes it so the filename in tabline and lightline apears as term instead of a mess
+command Termvsplit vsplit | term fish -C cd\ ./\ \\#/term
 cnoreabbrev termv Termvsplit
 
 au TextYankPost * silent! lua vim.highlight.on_yank {higroup="IncSearch", timeout=200}

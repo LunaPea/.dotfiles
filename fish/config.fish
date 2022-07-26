@@ -44,6 +44,10 @@ alias cp="cp -rip"
 alias mv='mv -i'
 alias rm='rm -i'
 
+# open new terminal tab in the same working dir
+# this mess makes it so the filename in tabline and lightline apears as term instead of a mess
+alias tnid="nvr -c :tabnew; nvr -c :term\ fish\ -C\ cd\\\\\\\\\ (pwd)\\\\\\\\ \\\\\#/term 2>/dev/null"
+
 # The bindings for !! and !$
 bind ! __history_previous_command
 bind '$' __history_previous_command_arguments
