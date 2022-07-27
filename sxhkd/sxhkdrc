@@ -18,6 +18,10 @@ super + shift + b
 ctrl + alt + t
 	urxvt -e ~/.scripts/nvim
 
+# terminal emulator connected to main pc with X11 forwarding enabled for clipboard support
+super + t; super + s
+	urxvt -e ssh wera@192.168.1.19 -t -Y ~/.scripts/nvim
+
 # terminal emulator
 super + alt + t
 	samedir
