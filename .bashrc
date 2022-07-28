@@ -2,6 +2,7 @@
 # ~/.bashrc
 #
 
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 export PATH=$PATH:$HOME/.local/bin/:$HOME/.cargo/bin
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
