@@ -130,6 +130,7 @@ map gf :tabnew <cfile><CR>
 " open new terminal tab
 " this mess makes it so the filename in tabline and lightline apears as term instead of a mess
 nnoremap <silent><leader>n :tabnew<CR><ESC>:term fish -C cd\ ./\ \\#/term<CR>
+tnoremap <silent><C-l> <RIGHT>
 
 " navigate tabs with Alt + number
 nnoremap <silent> <M-1> :tabn 1<CR>
