@@ -9,7 +9,7 @@ ln -s ~/.dotfiles/btops ~/.config/
 ln -s ~/.dotfiles/dunst ~/.config/
 ln -s ~/.dotfiles/fish ~/.config/
 ln -s ~/.dotfiles/Trolltech.conf ~/.config/
-ln -s ~/.dotfiles/greenclip.cfg ~/.config/
+ln -s ~/.dotfiles/greenclip.toml ~/.config/
 ln -s ~/.dotfiles/nvim ~/.config/
 ln -s ~/.dotfiles/ranger ~/.config/
 ln -s ~/.dotfiles/lutris ~/.config/
@@ -23,3 +23,5 @@ ln -s ~/.dotfiles/alacritty-colors.yml ~/.config/
 ln -s ~/.dotfiles/mpv/ ~/.config/mpv
 ln -s ~/.dotfiles/.themes ~/
 ln -s ~/.dotfiles/.icons ~/
+ln -s ~/.dotfiles/.gtkrc-2.0 ~/
+ln -s ~/.dotfiles/gtk-3.0/ ~/.config/gtk-3.0
