@@ -15,7 +15,6 @@ ln -s ~/.dotfiles/ranger ~/.config/
 ln -s ~/.dotfiles/lutris ~/.config/
 ln -s ~/.dotfiles/rofi ~/.config/
 ln -s ~/.dotfiles/zathura ~/.config/
-ln -s ~/.dotfiles/htop ~/.config/
 ln -s ~/.dotfiles/URxvt ~/.config/URxvt
 ln -s ~/.dotfiles/Xcolor-monokai ~/.config/Xcolor
 ln -s ~/.dotfiles/alacritty.yml ~/.config/
