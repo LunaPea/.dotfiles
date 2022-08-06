@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/bin/sh
 bspc monitor DisplayPort-2 -d I II III IV V VI
 bspc monitor DVI-D-0       -d VII VIII IX
 
@@ -47,18 +47,15 @@ xsetroot  -solid '#121212'
 setxkbmap -option caps:super
 xsetroot  -cursor_name left_ptr
 xmodmap   -e 'keycode 135 = Super_R'
-killall xcape 2>/dev/null; xcape -e 'Super_L=Escape' # when caps pressed once - act like escape
+killall xcape 2>/dev/null; xcape -e 'Super_L=Escape' # when super pressed once - act like escape
 
-# pgrep 'pidswallow' || pidswallow -gl &
-pgrep 'sxhkd' ||      sxhkd &
+pgrep 'sxhkd' || sxhkd &
 pgrep 'unclutter' || unclutter &
+pgrep -f "$HOME/.scripts/spotify-sxhkd" || $HOME/.scripts/spotify_hotkeys &
 killall greenclip;    greenclip daemon &
 killall btops;        btops &
-/usr/lib/kdeconnectd &
 sudo vnstatd -d
 dunst &
-lxpolkit &
-xrandr --output DVI-D-0 --gamma 0.7:0.7:0.7
 
 sudo modprobe btusb
 sudo systemctl start bluetooth
