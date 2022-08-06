@@ -1,5 +1,3 @@
-; # vim:ft=dosini
-;
 export SXHKD_SHELL=/bin/sh
 export LFS=/mnt/lfs
 export RADV_PERFTEST=aco
@@ -14,7 +12,7 @@ export QT_QPA_PLATFORMTHEME=gtk2
 export _JAVA_AWT_WM_NONREPARENTING=1
 export JAVA_OPTS="--illegal-access=permit"
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
-export PATH="SHOME/.local/bin/:$PATH"
+export PATH="$HOME/.local/bin/:$PATH"
 export TERM=xterm-color
 
 export ANDROID_SDK_ROOT=/opt/android-sdk/
