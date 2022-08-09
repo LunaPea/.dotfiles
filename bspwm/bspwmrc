@@ -51,7 +51,7 @@ killall xcape 2>/dev/null; xcape -e 'Super_L=Escape' # when super pressed once -
 
 pgrep 'sxhkd' || sxhkd &
 pgrep 'unclutter' || unclutter &
-pgrep -f "$HOME/.scripts/spotify-sxhkd" || $HOME/.scripts/spotify_hotkeys &
+pgrep -f "$HOME/.scripts/spotify_hotkeys" || $HOME/.scripts/spotify_hotkeys &
 killall greenclip;    greenclip daemon &
 killall btops;        btops &
 sudo vnstatd -d

@@ -20,8 +20,6 @@ export BROWSER="firefox"
 export QT_QPA_PLATFORMTHEME=gtk2
 export _JAVA_AWT_WM_NONREPARENTING=1
 
-test -f /usr/share/nvm/init-nvm.sh && source /usr/share/nvm/init-nvm.sh
-
 if [[ "$(tty)" = "/dev/tty1" ]]; then
 		startx
 fi

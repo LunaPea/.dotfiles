@@ -36,8 +36,7 @@ SETUVAR _fish_abbr_x:nvim\x2dclose\x20\x26\x26\x20exit
 SETUVAR _fish_abbr_yayr:yay\x20\x2dRns
 SETUVAR _fish_abbr_yya:yay
 SETUVAR _fish_abbr_yyar:yay\x20\x2dRns
-SETUVAR _fisher_jorgebucaran_2F_nvm_2E_fish_files:/home/wera/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e/home/wera/\x2econfig/fish/functions/_nvm_list\x2efish\x1e/home/wera/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e/home/wera/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e/home/wera/\x2econfig/fish/functions/nvm\x2efish\x1e/home/wera/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e/home/wera/\x2econfig/fish/completions/nvm\x2efish
-SETUVAR _fisher_plugins:jorgebucaran/nvm\x2efish
+SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:cyan
@@ -69,5 +68,3 @@ SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
 SETUVAR fish_user_paths:/home/wera/\x2ecargo/bin
-SETUVAR nvm_data:/home/wera/\x2elocal/share/nvm
-SETUVAR nvm_mirror:https\x3a//nodejs\x2eorg/dist
