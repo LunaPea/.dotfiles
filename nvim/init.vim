@@ -113,12 +113,20 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 " tab navigation
-nnoremap <A-h> :tabprev<CR>
-nnoremap <A-l> :tabnext<CR>
-tnoremap <A-h> <C-\><C-N>:tabprev<CR>
-tnoremap <A-l> <C-\><C-N>:tabnext<CR>
-inoremap <A-h> <ESC>:tabprev<CR>
-inoremap <A-l> <ESC>:tabnext<CR>
+nnoremap <silent><A-h> :tabprev<CR>
+nnoremap <silent><A-l> :tabnext<CR>
+tnoremap <silent><A-h> <C-\><C-N>:tabprev<CR>
+tnoremap <silent><A-l> <C-\><C-N>:tabnext<CR>
+inoremap <silent><A-h> <ESC>:tabprev<CR>
+inoremap <silent><A-l> <ESC>:tabnext<CR>
+
+" tab navigation movage
+nnoremap <silent><A-H> :silent! tabmove -1<CR>
+nnoremap <silent><A-L> :silent! tabmove +1<CR>
+tnoremap <silent><A-H> <C-\><C-N>:silent! tabmove -1<CR>
+tnoremap <silent><A-L> <C-\><C-N>:silent! tabmove +1<CR>
+inoremap <silent><A-H> <ESC>:silent! tabmove -1<CR>
+inoremap <silent><A-L> <ESC>:silent! tabmove +1<CR>
 
 " better split
 nnoremap <silent>ss :split<CR>
@@ -132,56 +140,57 @@ map gf :tabnew <cfile><CR>
 nnoremap <silent><leader>n :tabnew<CR><ESC>:term fish -C cd\ ./\ \\#/term<CR>
 tnoremap <silent><C-l> <RIGHT>
 
+" TODO: convert to functions maybe
 " navigate tabs with Alt + number
-nnoremap <silent> <M-1> :tabn 1<CR>
-nnoremap <silent> <M-2> :tabn 2<CR>
-nnoremap <silent> <M-3> :tabn 3<CR>
-nnoremap <silent> <M-4> :tabn 4<CR>
-nnoremap <silent> <M-5> :tabn 5<CR>
-nnoremap <silent> <M-6> :tabn 6<CR>
-nnoremap <silent> <M-7> :tabn 7<CR>
-nnoremap <silent> <M-8> :tabn 8<CR>
-nnoremap <silent> <M-9> :tabn 9<CR>
+nnoremap <silent> <M-1> :execute "try\n tabn 1\n catch\n tablast\n endtry"<CR>
+nnoremap <silent> <M-2> :execute "try\n tabn 2\n catch\n tablast\n endtry"<CR>
+nnoremap <silent> <M-3> :execute "try\n tabn 3\n catch\n tablast\n endtry"<CR>
+nnoremap <silent> <M-4> :execute "try\n tabn 4\n catch\n tablast\n endtry"<CR>
+nnoremap <silent> <M-5> :execute "try\n tabn 5\n catch\n tablast\n endtry"<CR>
+nnoremap <silent> <M-6> :execute "try\n tabn 6\n catch\n tablast\n endtry"<CR>
+nnoremap <silent> <M-7> :execute "try\n tabn 7\n catch\n tablast\n endtry"<CR>
+nnoremap <silent> <M-8> :execute "try\n tabn 8\n catch\n tablast\n endtry"<CR>
+nnoremap <silent> <M-9> :execute "try\n tabn 9\n catch\n tablast\n endtry"<CR>
 
-tnoremap <silent> <M-1> <C-\><C-N>:tabn 1<CR>
-tnoremap <silent> <M-2> <C-\><C-N>:tabn 2<CR>
-tnoremap <silent> <M-3> <C-\><C-N>:tabn 3<CR>
-tnoremap <silent> <M-4> <C-\><C-N>:tabn 4<CR>
-tnoremap <silent> <M-5> <C-\><C-N>:tabn 5<CR>
-tnoremap <silent> <M-6> <C-\><C-N>:tabn 6<CR>
-tnoremap <silent> <M-7> <C-\><C-N>:tabn 7<CR>
-tnoremap <silent> <M-8> <C-\><C-N>:tabn 8<CR>
-tnoremap <silent> <M-9> <C-\><C-N>:tabn 9<CR>
+tnoremap <silent> <M-1> <C-\><C-N>:execute "try\n tabn 1\n catch\n tablast\n endtry"<CR>
+tnoremap <silent> <M-2> <C-\><C-N>:execute "try\n tabn 2\n catch\n tablast\n endtry"<CR>
+tnoremap <silent> <M-3> <C-\><C-N>:execute "try\n tabn 3\n catch\n tablast\n endtry"<CR>
+tnoremap <silent> <M-4> <C-\><C-N>:execute "try\n tabn 4\n catch\n tablast\n endtry"<CR>
+tnoremap <silent> <M-5> <C-\><C-N>:execute "try\n tabn 5\n catch\n tablast\n endtry"<CR>
+tnoremap <silent> <M-6> <C-\><C-N>:execute "try\n tabn 6\n catch\n tablast\n endtry"<CR>
+tnoremap <silent> <M-7> <C-\><C-N>:execute "try\n tabn 7\n catch\n tablast\n endtry"<CR>
+tnoremap <silent> <M-8> <C-\><C-N>:execute "try\n tabn 8\n catch\n tablast\n endtry"<CR>
+tnoremap <silent> <M-9> <C-\><C-N>:execute "try\n tabn 9\n catch\n tablast\n endtry"<CR>
 
 " switch tabs with Alt + Shift + number
-nnoremap <silent> <M-!> :tabm 0<CR>
-nnoremap <silent> <M-@> :tabm 0<CR>:tabm +1<CR>
-nnoremap <silent> <M-#> :tabm 0<CR>:tabm +2<CR>
-nnoremap <silent> <M-$> :tabm 0<CR>:tabm +3<CR>
-nnoremap <silent> <M-%> :tabm 0<CR>:tabm +4<CR>
-nnoremap <silent> <M-^> :tabm 0<CR>:tabm +6<CR>
-nnoremap <silent> <M-&> :tabm 0<CR>:tabm +7<CR>
-nnoremap <silent> <M-*> :tabm 0<CR>:tabm +8<CR>
-nnoremap <silent> <M-(> :tabm 0<CR>:tabm +9<CR>
+inoremap <silent> <M-!> :execute "try\n tabm 1\n catch\n tabmove\n endtry"<CR>
+inoremap <silent> <M-@> :execute "try\n tabm 2\n catch\n tabmove\n endtry"<CR>
+inoremap <silent> <M-#> :execute "try\n tabm 3\n catch\n tabmove\n endtry"<CR>
+inoremap <silent> <M-$> :execute "try\n tabm 4\n catch\n tabmove\n endtry"<CR>
+inoremap <silent> <M-%> :execute "try\n tabm 5\n catch\n tabmove\n endtry"<CR>
+inoremap <silent> <M-^> :execute "try\n tabm 6\n catch\n tabmove\n endtry"<CR>
+inoremap <silent> <M-&> :execute "try\n tabm 7\n catch\n tabmove\n endtry"<CR>
+inoremap <silent> <M-*> :execute "try\n tabm 8\n catch\n tabmove\n endtry"<CR>
+inoremap <silent> <M-(> :execute "try\n tabm 9\n catch\n tabmove\n endtry"<CR>
+"
+tnoremap <silent> <M-!> <C-\><C-N>:execute "try\n tabm 1\n catch\n tabmove\n endtry"<CR>
+tnoremap <silent> <M-@> <C-\><C-N>:execute "try\n tabm 2\n catch\n tabmove\n endtry"<CR>
+tnoremap <silent> <M-#> <C-\><C-N>:execute "try\n tabm 3\n catch\n tabmove\n endtry"<CR>
+tnoremap <silent> <M-$> <C-\><C-N>:execute "try\n tabm 4\n catch\n tabmove\n endtry"<CR>
+tnoremap <silent> <M-%> <C-\><C-N>:execute "try\n tabm 5\n catch\n tabmove\n endtry"<CR>
+tnoremap <silent> <M-^> <C-\><C-N>:execute "try\n tabm 6\n catch\n tabmove\n endtry"<CR>
+tnoremap <silent> <M-&> <C-\><C-N>:execute "try\n tabm 7\n catch\n tabmove\n endtry"<CR>
+tnoremap <silent> <M-*> <C-\><C-N>:execute "try\n tabm 8\n catch\n tabmove\n endtry"<CR>
+tnoremap <silent> <M-(> <C-\><C-N>:execute "try\n tabm 9\n catch\n tabmove\n endtry"<CR>
 
-tnoremap <silent> <M-!> <C-\><C-N>:tabm 1<CR>
-tnoremap <silent> <M-@> <C-\><C-N>:tabm 2<CR>
-tnoremap <silent> <M-#> <C-\><C-N>:tabm 3<CR>
-tnoremap <silent> <M-$> <C-\><C-N>:tabm 4<CR>
-tnoremap <silent> <M-%> <C-\><C-N>:tabm 5<CR>
-tnoremap <silent> <M-^> <C-\><C-N>:tabm 6<CR>
-tnoremap <silent> <M-&> <C-\><C-N>:tabm 7<CR>
-tnoremap <silent> <M-*> <C-\><C-N>:tabm 8<CR>
-tnoremap <silent> <M-(> <C-\><C-N>:tabm 9<CR>
-
-nnoremap <silent> <M-]> :tabn<CR>
-nnoremap <silent> <M-[> :tabp<CR>
-tnoremap <silent> <M-]> <C-\><C-N>:tabn<CR>
-tnoremap <silent> <M-[> <C-\><C-N>:tabp<CR>
+nnoremap <silent> <M-]> :silent! tabn\n catch\n tablast\n endtry"<CR>
+nnoremap <silent> <M-[> :silent! tabp\n catch\n tablast\n endtry"<CR>
+tnoremap <silent> <M-]> <C-\><C-N>:silent! tabn\n catch\n tablast\n endtry"<CR>
+tnoremap <silent> <M-[> <C-\><C-N>:silent! tabp\n catch\n tablast\n endtry"<CR>
 
 " reselect visual selection while indenting
-vnoremap < <gv
-vnoremap > >gv
+vnoremap <silent>< <gv
+vnoremap <silent>> >gv
 
 " ?
 vnoremap <silent> y y`]
@@ -200,8 +209,8 @@ nnoremap <leader>sp :normal! mz[s1z=`z<CR>
 nnoremap <leader>sc :setlocal spell!<CR>
 
 " move line/selection up/down " TODO: fix visual move
-nnoremap K :m .-2<CR>==
-nnoremap J :m .+1<CR>==
+" nnoremap K :m .-2<CR>==
+" nnoremap J :m .+1<CR>==
 " vnoremap K :m '<-2<CR>gv=gv
 " vnoremap J :m '>+1<CR>gv=gv
 
