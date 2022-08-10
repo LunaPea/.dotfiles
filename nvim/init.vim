@@ -407,6 +407,10 @@ else
 	inoremap <silent><expr> <c-@> coc#refresh()
 endif
 
+" makes it so there are no node instances left after quiting nvim
+autocmd VimLeavePre * :call coc#rpc#kill()
+autocmd VimLeave * if get(g:, 'coc_process_pid', 0) | call system('kill -9 -'.g:coc_process_pid) | endif
+
 "
 " lightline
 "
