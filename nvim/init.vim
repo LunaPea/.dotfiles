@@ -304,7 +304,7 @@ Plug 'junegunn/goyo.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'iamcco/markdown-preview.nvim'
 Plug 'scrooloose/nerdtree'
-Plug 'yuttie/comfortable-motion.vim'
+Plug 'WeraPea/comfortable-motion.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-eunuch'
 Plug 'rhysd/rust-doc.vim'
