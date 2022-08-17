@@ -26,6 +26,12 @@ super + t; super + s
 super + Pause
 	sleep 1; systemctl suspend
 
+XF86AudioPause
+	pulseaudio-control togmute
+
+XF86AudioPlay
+	pulseaudio-control togmute
+
 #
 # Rofi
 #
