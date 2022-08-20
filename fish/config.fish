@@ -3,12 +3,11 @@ export LFS=/mnt/lfs
 export RADV_PERFTEST=aco
 export WINEFSYNC=1
 export SUDO_ASKPASS="$HOME/.scripts/rofi/rofi-askpass"
-export SHELL="fish"
+export SHELL=/bin/fish
 export LC_ALL="en_US.UTF-8"
-export EDITOR="nvim"
+export EDITOR="nvim-open"
 export TERMINAL="urxvt"
 export BROWSER="firefox"
-export QT_QPA_PLATFORMTHEME=gtk2
 export _JAVA_AWT_WM_NONREPARENTING=1
 export JAVA_OPTS="--illegal-access=permit"
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
