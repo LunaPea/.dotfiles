@@ -8,7 +8,7 @@ export PATH=$PATH:$HOME/.local/bin/:$HOME/.cargo/bin
 export SHELL="/bin/bash"
 export LC_ALL="en_US.UTF-8"
 export EDITOR="nvim-open"
-export TERMINAL="urxvt"
+export TERMINAL="kitty"
 export BROWSER="firefox"
 export _JAVA_AWT_WM_NONREPARENTING=1
 

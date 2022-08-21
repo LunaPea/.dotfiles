@@ -6,13 +6,12 @@ export SUDO_ASKPASS="$HOME/.scripts/rofi/rofi-askpass"
 export SHELL=/bin/fish
 export LC_ALL="en_US.UTF-8"
 export EDITOR="nvim-open"
-export TERMINAL="urxvt"
+export TERMINAL="kitty"
 export BROWSER="firefox"
 export _JAVA_AWT_WM_NONREPARENTING=1
 export JAVA_OPTS="--illegal-access=permit"
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 export PATH="$HOME/.local/bin/:$PATH"
-export TERM=xterm-color
 
 export ANDROID_SDK_ROOT=/opt/android-sdk/
 export PATH="$PATH:/opt/android-sdk/cmdline-tools/latest/bin/"

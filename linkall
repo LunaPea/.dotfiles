@@ -24,3 +24,4 @@ ln -s ~/.dotfiles/.themes ~/
 ln -s ~/.dotfiles/.icons ~/
 ln -s ~/.dotfiles/.gtkrc-2.0 ~/
 ln -s ~/.dotfiles/gtk-3.0/ ~/.config/gtk-3.0
+ln -s ~/.dotfiles/kitty/ ~/.config/kitty

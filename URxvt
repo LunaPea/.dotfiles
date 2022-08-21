@@ -35,8 +35,8 @@ URxvt.keysym.M-u: perl:url-select:select_next
 URxvt.urlLauncher: firefox
 URxvt.underlineURLs: true
 urxvt*matcher.button: 1
-URxvt.resize-font.smaller: C-j
-URxvt.resize-font.bigger: C-k
+URxvt.resize-font.smaller: C-J
+URxvt.resize-font.bigger: C-K
 
 !! Common Keybinds for Navigations
 URxvt.keysym.Shift-Up: command:\033]720;1\007

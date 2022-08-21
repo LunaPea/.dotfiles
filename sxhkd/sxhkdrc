@@ -16,12 +16,12 @@ super + shift + b
 
 # terminal emulator
 ctrl + alt + t
-	urxvt -e ~/.scripts/nvim
+	kitty ~/.scripts/nvim
 
 # terminal emulator connected to main pc with X11 forwarding enabled for clipboard support
 super + t; super + s
 	wol a8:a1:59:47:4e:c7; \
-	urxvt -e ssh wera@192.168.1.19 -t -Y ~/.scripts/nvim
+	kitty ssh wera@192.168.1.19 -t -Y ~/.scripts/nvim
 
 super + Pause
 	sleep 1; systemctl suspend
@@ -91,7 +91,7 @@ super + x; super + p
 
 # terminal emulator
 super + r; super + t
-	urxvt -e ~/.scripts/nvim
+	kitty ~/.scripts/nvim
 
 # Rofi: launch menu
 super + r; super + r

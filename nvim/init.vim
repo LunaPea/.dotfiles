@@ -28,43 +28,32 @@ syntax enable
 
 colo molokai
 
-set hidden
 set noshowmode
-set encoding=utf-8
-set fileencoding=utf-8
-set ruler
 set mouse=a
 set splitbelow
 set splitright
-set conceallevel=0
-set smarttab
 set tabstop=4
 set softtabstop=0 noexpandtab
 set shiftwidth=4
 set smartindent
-set autoindent
 set number
 set cursorline
-set background=dark
 set nowritebackup
 set updatetime=300
 set timeoutlen=500
 set clipboard=unnamedplus
-set autoread
 set linebreak
-set incsearch
 set noswapfile
 set smartcase
 set ignorecase
 set showmatch
-set nobackup
 execute 'set undodir=' . g:nvim_dir . 'undodir'
 set undofile
 set scrolloff=8
 set sidescrolloff=8
 set nofoldenable
 set lazyredraw
-set listchars=nbsp:¬,extends:»,precedes:«,trail:•
+set listchars=nbsp:¬,trail:•,space:•,tab:--→
 cmap w!! w !sudo tee %
 
 " 
@@ -138,7 +127,6 @@ map gf :tabnew <cfile><CR>
 " open new terminal tab
 " this mess makes it so the filename in tabline and lightline apears as term instead of a mess
 nnoremap <silent><leader>n :tabnew<CR><ESC>:term fish -C cd\ ./\ \\#/term<CR>
-tnoremap <silent><C-l> <RIGHT>
 
 " TODO: convert to functions maybe
 " navigate tabs with Alt + number
@@ -283,9 +271,10 @@ call plug#begin()
 " source ~/.config/nvim/plugins/nerdtree.vim
 " source ~/.config/nvim/plugins/vim-sensible.vim
 " Plugin 'glacambre/firenvim'
-" Plugin 'github/copilot.vim'
 " Plug 'andymass/vim-matchup'
+" Plug 'wellle/context.vim'
 
+Plug 'github/copilot.vim'
 Plug 'rust-lang/rust.vim'
 Plug 'godlygeek/tabular'
 Plug 'mbbill/undotree'
@@ -296,7 +285,6 @@ Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'plasticboy/vim-markdown'
-Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
 Plug 'dhruvasagar/vim-table-mode'
 Plug 'vimwiki/vimwiki'
@@ -407,6 +395,11 @@ else
 	inoremap <silent><expr> <c-@> coc#refresh()
 endif
 
+inoremap <silent><expr> <C-j> coc#pum#visible() ? coc#pum#next(1) : "\<C-j>"
+inoremap <silent><expr> <C-k> coc#pum#visible() ? coc#pum#prev(1) : "\<C-k>"
+
+inoremap <silent><expr> <C-l> coc#pum#visible() ? coc#pum#confirm() : "\<C-l>"
+
 " makes it so there are no node instances left after quiting nvim
 autocmd VimLeavePre * :call coc#rpc#kill()
 autocmd VimLeave * if get(g:, 'coc_process_pid', 0) | call system('kill -9 -'.g:coc_process_pid) | endif
@@ -498,10 +491,20 @@ nmap ghp <Plug>(GitGutterPreviewHunk)
 autocmd FileType markdown let g:table_mode_corner='|'
 nnoremap <leader>t :TableModeToggle<CR>
 
+"
+" github copilot
+"
+
+let g:copilot_node_command = "~/.nodenv/versions/16.15.0/bin/node"
+let g:copilot_no_tab_map = v:true
+
+imap <silent><script><expr> <C-S-L> copilot#Accept("\<CR>")
+" requres workaround https://www.reddit.com/r/neovim/comments/mbj8m5/how_to_setup_ctrlshiftkey_mappings_in_neovim_and/
+
+
 " other
 
-au FileType * set formatoptions=tcroqln
-au FileType * set com=s1:/*,mb:*,ex:*/,://,b:#,:%,:XCOMM,n:>,b:-\ [\ ],b:-\ [x],b:\",b:-
+" au FileType * set formatoptions=tcroqln
 
 " porth
 autocmd BufRead,BufNewFile *.porth set filetype=porth
