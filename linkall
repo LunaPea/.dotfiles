@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 mkdir -p .config/
 ln -s ~/.dotfiles/.bashrc ~/
 ln -s ~/.dotfiles/.Xdefaults ~/
@@ -15,13 +15,13 @@ ln -s ~/.dotfiles/ranger ~/.config/
 ln -s ~/.dotfiles/lutris ~/.config/
 ln -s ~/.dotfiles/rofi ~/.config/
 ln -s ~/.dotfiles/zathura ~/.config/
-ln -s ~/.dotfiles/URxvt ~/.config/URxvt
+ln -s ~/.dotfiles/URxvt ~/.config/
 ln -s ~/.dotfiles/Xcolor-monokai ~/.config/Xcolor
 ln -s ~/.dotfiles/alacritty.yml ~/.config/
 ln -s ~/.dotfiles/alacritty-colors.yml ~/.config/
-ln -s ~/.dotfiles/mpv/ ~/.config/mpv
+ln -s ~/.dotfiles/mpv ~/.config/
 ln -s ~/.dotfiles/.themes ~/
 ln -s ~/.dotfiles/.icons ~/
 ln -s ~/.dotfiles/.gtkrc-2.0 ~/
-ln -s ~/.dotfiles/gtk-3.0/ ~/.config/gtk-3.0
-ln -s ~/.dotfiles/kitty/ ~/.config/kitty
+ln -s ~/.dotfiles/gtk-3.0 ~/.config/
+ln -s ~/.dotfiles/kitty ~/.config/
