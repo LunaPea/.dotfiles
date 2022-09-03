@@ -274,7 +274,6 @@ call plug#begin()
 " Plug 'andymass/vim-matchup'
 " Plug 'wellle/context.vim'
 
-Plug 'github/copilot.vim'
 Plug 'rust-lang/rust.vim'
 Plug 'godlygeek/tabular'
 Plug 'mbbill/undotree'
@@ -290,7 +289,7 @@ Plug 'dhruvasagar/vim-table-mode'
 Plug 'vimwiki/vimwiki'
 Plug 'junegunn/goyo.vim'
 Plug 'itchyny/lightline.vim'
-Plug 'iamcco/markdown-preview.nvim'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 Plug 'scrooloose/nerdtree'
 Plug 'WeraPea/comfortable-motion.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -490,17 +489,6 @@ nmap ghp <Plug>(GitGutterPreviewHunk)
 
 autocmd FileType markdown let g:table_mode_corner='|'
 nnoremap <leader>t :TableModeToggle<CR>
-
-"
-" github copilot
-"
-
-let g:copilot_node_command = "~/.nodenv/versions/16.15.0/bin/node"
-let g:copilot_no_tab_map = v:true
-
-imap <silent><script><expr> <C-S-L> copilot#Accept("\<CR>")
-" requres workaround https://www.reddit.com/r/neovim/comments/mbj8m5/how_to_setup_ctrlshiftkey_mappings_in_neovim_and/
-
 
 " other
 
