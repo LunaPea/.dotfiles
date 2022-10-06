@@ -11,5 +11,6 @@
   "signature.target": "echo",
   "notification.border": false,
   "notification.marginRight": 5,
-  "coc.preferences.jumpCommand": "tabe"
+  "coc.preferences.jumpCommand": "tabe",
+  "suggest.noselect": true
 }
