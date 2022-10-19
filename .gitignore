@@ -1,6 +1,5 @@
 nvim/undodir/*
-nvim/bundle/*
+nvim/plugins/*
 ranger/plugins/*
 ranger/__pycache__
-nvim/.netrwhist
 mpv/watch_later/*
