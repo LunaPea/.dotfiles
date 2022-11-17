@@ -1,0 +1,16 @@
+theme = 'base16_terminal'
+
+[keys.normal]
+";" = "flip_selections"
+"A-;" = "collapse_selection"
+
+[keys.select]
+"g" = { "e" = "goto_file_end" }
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "underline"
+
+[editor.lsp]
+display-messages = true

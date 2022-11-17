@@ -1,5 +1,5 @@
 #!/bin/sh
-bspc monitor DisplayPort-2 -d I II III IV V
+bspc monitor DisplayPort-0 -d I II III IV V
 bspc monitor DVI-D-0       -d VI VII V111
 
 bspc monitor eDP1 -d I II III IV V
@@ -26,13 +26,6 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 bspc config single_monocle       true
 
-bspc rule -a java 		state=floating
-bspc rule -a scrcpy 	state=floating rectangle=379x820+1600+300
-bspc rule -a steam		follow=no
-bspc rule -a vlc		state=fullscreen
-bspc rule -a Spotify	state=fullscreen
-bspc rule -a Zathura	state=tiled
-
 xrdb ~/.Xdefaults
 
 killall polybar
@@ -54,6 +47,3 @@ killall greenclip;    greenclip daemon &
 killall btops;        btops &
 sudo vnstatd -d
 dunst &
-
-sudo modprobe btusb
-sudo systemctl start bluetooth

@@ -16,21 +16,13 @@ super + shift + b
 
 # terminal emulator
 ctrl + alt + t
-	kitty ~/.scripts/nvim
+	kitty fish
 
 # terminal emulator connected to main pc with X11 forwarding enabled for clipboard support
 super + t; super + s
 	wol a8:a1:59:47:4e:c7; \
-	kitty ssh wera@192.168.1.19 -t -Y ~/.scripts/nvim
+	kitty ssh wera@192.168.1.19 -t -Y
 
-super + Pause
-	sleep 1; systemctl suspend
-
-XF86AudioPause
-	pulseaudio-control togmute
-
-XF86AudioPlay
-	pulseaudio-control togmute
 
 #
 # Rofi
@@ -55,9 +47,6 @@ super + b
 # Rofi: shortcuts
 super + a
 	rofi-menu
-
-XF86Calculator
-	rofi -show calc -modi calc -no-show-match -no-sort
 
 # show Rofi shortcuts
 super + shift + slash
@@ -91,7 +80,7 @@ super + x; super + p
 
 # terminal emulator
 super + r; super + t
-	kitty ~/.scripts/nvim
+	kitty fish
 
 # Rofi: launch menu
 super + r; super + r
@@ -247,9 +236,9 @@ XF86MonBrightnessDown
 # pc:
 
 super + F10
-	sudo ddccontrol -r 0x10 -W +5 dev:/dev/i2c-10
+	sudo ddccontrol -r 0x10 -W +5 dev:/dev/i2c-8
 super + F9
-	sudo ddccontrol -r 0x10 -W -5 dev:/dev/i2c-10
+	sudo ddccontrol -r 0x10 -W -5 dev:/dev/i2c-8
 
 super + shift + F10
 	sudo ddccontrol -r 0x10 -W +10 dev:/dev/i2c-7
@@ -257,12 +246,12 @@ super + shift + F9
 	sudo ddccontrol -r 0x10 -W -10 dev:/dev/i2c-7
 
 super + F11
-	sudo ddccontrol -r 0xe2 -w 5 dev:/dev/i2c-10
+	sudo ddccontrol -r 0xe2 -w 5 dev:/dev/i2c-8
 super + F12
-	sudo ddccontrol -r 0xe2 -w 6 dev:/dev/i2c-10
+	sudo ddccontrol -r 0xe2 -w 6 dev:/dev/i2c-8
 
 super + shift + F11
-	sudo ddccontrol -r 0xe5 -W -1 dev:/dev/i2c-10
+	sudo ddccontrol -r 0xe5 -W -1 dev:/dev/i2c-8
 super + shift + F12
-	sudo ddccontrol -r 0xe5 -W +1 dev:/dev/i2c-10
+	sudo ddccontrol -r 0xe5 -W +1 dev:/dev/i2c-8
 

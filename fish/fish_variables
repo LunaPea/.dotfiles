@@ -1,8 +1,8 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:3400
-SETUVAR _fish_abbr__3A_q:nvim\x2dclose\x20\x26\x26\x20exit
-SETUVAR _fish_abbr__3A_wq:nvim\x2dclose\x20\x26\x26\x20exit
+SETUVAR _fish_abbr__3A_q:exit
+SETUVAR _fish_abbr__3A_wq:exit
 SETUVAR _fish_abbr_ayy:yay
 SETUVAR _fish_abbr_ayyr:yay\x20\x2dRns
 SETUVAR _fish_abbr_back:cd\x20\x2d
@@ -10,29 +10,22 @@ SETUVAR _fish_abbr_c:clear
 SETUVAR _fish_abbr_cl:clear
 SETUVAR _fish_abbr_copy:xclip\x20\x2dselection\x20c
 SETUVAR _fish_abbr_dc:cd
-SETUVAR _fish_abbr_feh:feh\x20\x2d\x2dscale\x2ddown\x20\x2d\x2dauto\x2dzoom
+SETUVAR _fish_abbr_hx:helix
 SETUVAR _fish_abbr_lc:clear
 SETUVAR _fish_abbr_ls:ls
-SETUVAR _fish_abbr_mpv_3A_mpv:\x2d\x2dno\x2dinput\x2ddefault\x2dbindings
-SETUVAR _fish_abbr_netscrcpy:scrcpy\x20\x2dm\x20720\x20\x2db\x20800000
 SETUVAR _fish_abbr_netuse:lsof\x20\x2dP\x20\x2di\x20\x2dn
-SETUVAR _fish_abbr_nvim:nvim\x2dopen
 SETUVAR _fish_abbr_pac:sudo\x20pacman\x20\x2dS
 SETUVAR _fish_abbr_pacr:sudo\x20pacman\x20\x2dRns
 SETUVAR _fish_abbr_pacu:sudo\x20pacman\x20\x2dSyu\x20\x2d\x2dnoconfirm
-SETUVAR _fish_abbr_q:nvim\x2dclose\x20\x26\x26\x20exit
+SETUVAR _fish_abbr_q:exit
 SETUVAR _fish_abbr_r:ranger
 SETUVAR _fish_abbr_rsh:ssh\x20wera\x40192\x2e168\x2e1\x2e19\x20\x2dt\x20fish
 SETUVAR _fish_abbr_rsus:ssh\x20wera\x40192\x2e168\x2e1\x2e19\x20sudo\x20\x2ds\x20systemctl\x20suspend
 SETUVAR _fish_abbr_sizeof:du\x20\x2dsh
-SETUVAR _fish_abbr_sl:ls\x20\x7c\x20tac
-SETUVAR _fish_abbr_t:nvr\x20\x2dcc\x20split
-SETUVAR _fish_abbr_tv:nvr\x20\x2dcc\x20vsplit
-SETUVAR _fish_abbr_vcd:nvr\x20\x2dc\x20\x3acd\x5c\x20\x28pwd\x29
-SETUVAR _fish_abbr_vi:nvim\x2dopen
-SETUVAR _fish_abbr_vim:nvim\x2dopen
+SETUVAR _fish_abbr_sl:ls
 SETUVAR _fish_abbr_vm:mv
-SETUVAR _fish_abbr_x:nvim\x2dclose\x20\x26\x26\x20exit
+SETUVAR _fish_abbr_x:exit
+SETUVAR _fish_abbr_xh:helix
 SETUVAR _fish_abbr_yayr:yay\x20\x2dRns
 SETUVAR _fish_abbr_yya:yay
 SETUVAR _fish_abbr_yyar:yay\x20\x2dRns
