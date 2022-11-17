@@ -4,7 +4,7 @@
 
 export EDITOR="helix"
 export BROWSER="firefox"
-export PATH=$PATH:$HOME/.local.bin
+export PATH=$PATH:$HOME/.local/bin
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
