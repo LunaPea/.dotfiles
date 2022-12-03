@@ -2,7 +2,7 @@
 # ~/.bashrc
 #
 
-export EDITOR="helix"
+export EDITOR="hx"
 export BROWSER="firefox"
 export PATH=$PATH:$HOME/.local/bin
 

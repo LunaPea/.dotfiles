@@ -1,4 +1,4 @@
-export EDITOR="helix"
+export EDITOR="hx"
 export BROWSER="firefox"
 export JAVA_OPTS="--illegal-access=permit"
 export PATH="$HOME/.local/bin/:$PATH"

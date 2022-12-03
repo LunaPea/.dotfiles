@@ -24,7 +24,7 @@ SETUVAR _fish_abbr_sizeof:du\x20\x2dsh
 SETUVAR _fish_abbr_sl:ls
 SETUVAR _fish_abbr_vm:mv
 SETUVAR _fish_abbr_x:exit
-SETUVAR _fish_abbr_xh:helix
+SETUVAR _fish_abbr_xh:hx
 SETUVAR _fish_abbr_yayr:yay\x20\x2dRns
 SETUVAR _fish_abbr_yya:yay
 SETUVAR _fish_abbr_yyar:yay\x20\x2dRns
