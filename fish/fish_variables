@@ -10,7 +10,6 @@ SETUVAR _fish_abbr_c:clear
 SETUVAR _fish_abbr_cl:clear
 SETUVAR _fish_abbr_copy:xclip\x20\x2dselection\x20c
 SETUVAR _fish_abbr_dc:cd
-SETUVAR _fish_abbr_hx:helix
 SETUVAR _fish_abbr_lc:clear
 SETUVAR _fish_abbr_ls:ls
 SETUVAR _fish_abbr_netuse:lsof\x20\x2dP\x20\x2di\x20\x2dn
