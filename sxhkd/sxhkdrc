@@ -94,6 +94,9 @@ super + r; super + s
 super + r; super + f
 	gtk-launch firefox.desktop
 
+# launch qutebrowser
+super + r; super + q
+	qutebrowser
 
 #
 # bspwm hotkeys
