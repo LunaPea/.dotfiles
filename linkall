@@ -14,3 +14,4 @@ ln -s ~/.dotfiles/rofi ~/.config/
 ln -s ~/.dotfiles/zathura ~/.config/
 ln -s ~/.dotfiles/mpv ~/.config/
 ln -s ~/.dotfiles/kitty ~/.config/
+ln -s ~/.dotfiles/qutebrowser/ ~/.config/
