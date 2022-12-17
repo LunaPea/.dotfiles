@@ -6,20 +6,65 @@
 
 config_version: 2
 settings:
+  aliases:
+    global:
+      q: tab-close
+      qa: quit
+      w: session-save
+      wq: quit --save
+      wqa: quit --save
   auto_save.session:
     global: true
   bindings.commands:
     global:
       normal:
+        <Alt+Shift+h>: tab-move -
+        <Alt+Shift+l>: tab-move +
+        <Alt+h>: tab-prev
+        <Alt+l>: tab-next
+        <Ctrl+Shift+h>: tab-move -
+        <Ctrl+Shift+l>: tab-move +
+        <Ctrl+h>: tab-move -
+        <Ctrl+l>: tab-move +
         H: tab-prev
         J: back
         K: forward
         L: tab-next
         gh: tab-move -
         gl: tab-move +
+  colors.webpage.bg:
+    global: black
   colors.webpage.darkmode.enabled:
     global: true
   content.autoplay:
     global: false
+  content.blocking.enabled:
+    global: true
   content.blocking.method:
     global: both
+  editor.command:
+    global:
+    - kitty
+    - helix
+    - '{file}:{line}:{column}'
+  fileselect.folder.command:
+    global:
+    - sh
+    - -c
+    - bspc rule -a \* -o state=fullscreen && kitty ranger --choosedir={}
+  fileselect.handler:
+    global: external
+  fileselect.multiple_files.command:
+    global:
+    - sh
+    - -c
+    - bspc rule -a \* -o state=fullscreen && kitty ranger --choosefiles={}
+  fileselect.single_file.command:
+    global:
+    - sh
+    - -c
+    - bspc rule -a \* -o state=fullscreen && kitty ranger --choosefile={}
+  qt.chromium.process_model:
+    global: single-process
+  tabs.new_position.unrelated:
+    global: next
