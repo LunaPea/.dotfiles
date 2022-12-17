@@ -1,4 +1,4 @@
-theme = 'base16_default'
+  theme = 'base16_terminal'
 
 [keys.normal]
 ";" = "flip_selections"
@@ -6,6 +6,8 @@ theme = 'base16_default'
 
 [keys.select]
 "g" = { "e" = "goto_file_end" }
+";" = "flip_selections"
+"A-;" = "collapse_selection"
 
 [editor.cursor-shape]
 normal = "block"

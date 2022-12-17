@@ -38,7 +38,7 @@ polybar defaultext &
 xset r rate 300 100
 xset      -dpms s off
 setxkbmap -layout pl
-xsetroot  -solid '#121212'
+hsetroot  -solid '#121212'
 setxkbmap -option caps:super
 xsetroot  -cursor_name left_ptr
 pgrep -f "xcape -e Super_L Escape" || xcape -e 'Super_L=Escape' # when super pressed once - act like escape
@@ -49,3 +49,4 @@ killall greenclip;    greenclip daemon &
 killall btops;        btops &
 sudo vnstatd -d
 dunst &
+picom &

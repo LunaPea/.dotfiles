@@ -7,7 +7,7 @@ rofi.font:	JetBrainsMono Nerd Font 12
 
 ! black
 *.color0:       #121212
-*.color8:       #303030
+*.color8:       #505050
 
 ! red
 *.color1:       #dc2566
