@@ -38,7 +38,7 @@ super + d
 
 # Rofi: clipboard
 super + c
-	rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
+	roficlip
 
 # Rofi: bluetooth menu
 super + b
@@ -77,6 +77,12 @@ super + x; super + n
 
 super + x; super + p
 	playerctl -p spotify previous
+
+super + x; super + j
+	playerctl -p spotify volume 0.1-
+
+super + x; super + k
+	playerctl -p spotify volume 0.1+
 
 # terminal emulator
 super + r; super + t

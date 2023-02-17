@@ -1,6 +1,5 @@
-export EDITOR="hx"
-export BROWSER="firefox"
-export JAVA_OPTS="--illegal-access=permit"
+export EDITOR="helix"
+export BROWSER="qutebrowser"
 export PATH="$HOME/.local/bin/:$PATH"
 
 # Changing "ls" to "exa"

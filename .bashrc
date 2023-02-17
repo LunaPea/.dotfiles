@@ -2,8 +2,8 @@
 # ~/.bashrc
 #
 
-export EDITOR="hx"
-export BROWSER="firefox"
+export EDITOR="helix"
+export BROWSER="qutebrowser"
 export PATH=$PATH:$HOME/.local/bin
 
 # If not running interactively, don't do anything
