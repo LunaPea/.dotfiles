@@ -8,7 +8,6 @@ ln -s ~/.dotfiles/polybar ~/.config/
 ln -s ~/.dotfiles/btops ~/.config/
 ln -s ~/.dotfiles/dunst ~/.config/
 ln -s ~/.dotfiles/fish ~/.config/
-ln -s ~/.dotfiles/greenclip.toml ~/.config/
 ln -s ~/.dotfiles/ranger ~/.config/
 ln -s ~/.dotfiles/rofi ~/.config/
 ln -s ~/.dotfiles/zathura ~/.config/
