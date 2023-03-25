@@ -1,6 +1,6 @@
 export EDITOR="helix"
 export BROWSER="qutebrowser"
-export PATH="$HOME/.local/bin/:$PATH"
+export PATH="$HOME/.local/bin/:$HOME/.cargo/bin/:$PATH"
 
 # Changing "ls" to "exa"
 alias sl='exa -l --group-directories-first --time-style long-iso | rev | ~/.scripts/rpad --git'

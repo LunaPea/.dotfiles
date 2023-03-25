@@ -23,6 +23,9 @@ super + t; super + s
 	wol a8:a1:59:47:4e:c7; \
 	kitty ssh wera@192.168.1.19 -t -Y
 
+super + x; super + c
+	xclip -o -s primary | xclip -i -selection c
+
 
 #
 # Rofi
