@@ -13,6 +13,8 @@ settings:
       w: session-save
       wq: quit --save
       wqa: quit --save
+  auto_save.interval:
+    global: 15000
   auto_save.session:
     global: true
   bindings.commands:
@@ -33,77 +35,160 @@ settings:
         ge: scroll-to-perc 100
         gh: tab-move -
         gl: tab-move +
+  colors.completion.category.bg:
+    global: '#121212'
+  colors.completion.category.border.bottom:
+    global: '#121212'
+  colors.completion.category.border.top:
+    global: '#121212'
+  colors.completion.category.fg:
+    global: '#d0d0d0'
+  colors.completion.even.bg:
+    global: '#121212'
+  colors.completion.fg:
+    global:
+    - '#d0d0d0'
+    - '#d0d0d0'
+    - '#d0d0d0'
+  colors.completion.item.selected.bg:
+    global: '#505050'
+  colors.completion.item.selected.border.bottom:
+    global: '#505050'
+  colors.completion.item.selected.border.top:
+    global: '#505050'
+  colors.completion.item.selected.fg:
+    global: '#d0d0d0'
+  colors.completion.item.selected.match.fg:
+    global: '#66efd5'
+  colors.completion.match.fg:
+    global: '#66efd5'
+  colors.completion.odd.bg:
+    global: '#121212'
+  colors.completion.scrollbar.bg:
+    global: '#121212'
+  colors.completion.scrollbar.fg:
+    global: '#d0d0d0'
+  colors.contextmenu.disabled.fg:
+    global: '#505050'
+  colors.contextmenu.menu.bg:
+    global: '#121212'
+  colors.contextmenu.menu.fg:
+    global: '#d0d0d0'
+  colors.contextmenu.selected.bg:
+    global: '#505050'
+  colors.contextmenu.selected.fg:
+    global: '#d0d0d0'
   colors.downloads.bar.bg:
-    global: black
+    global: '#121212'
+  colors.downloads.error.bg:
+    global: '#fa2772'
+  colors.downloads.error.fg:
+    global: '#d0d0d0'
+  colors.downloads.start.fg:
+    global: '#d0d0d0'
+  colors.downloads.stop.bg:
+    global: '#a7e22e'
   colors.hints.bg:
     global: '#121212'
   colors.hints.fg:
-    global: white
+    global: '#d0d0d0'
   colors.hints.match.fg:
     global: '#a7e22e'
-  colors.keyhint.bg:
-    global: rgba(0, 0, 0, 80%)
-  colors.messages.warning.bg:
-    global: darkorange
-  colors.statusbar.caret.bg:
-    global: purple
+  colors.messages.error.bg:
+    global: '#fa2772'
+  colors.messages.error.border:
+    global: '#fa2772'
+  colors.messages.error.fg:
+    global: white
+  colors.messages.info.bg:
+    global: '#121212'
+  colors.messages.info.border:
+    global: '#505050'
+  colors.prompts.bg:
+    global: '#121212'
+  colors.prompts.border:
+    global: '1px solid #505050'
+  colors.prompts.fg:
+    global: '#d0d0d0'
+  colors.prompts.selected.bg:
+    global: '#505050'
+  colors.prompts.selected.fg:
+    global: '#d0d0d0'
   colors.statusbar.command.bg:
     global: '#121212'
+  colors.statusbar.command.fg:
+    global: '#d0d0d0'
   colors.statusbar.insert.bg:
-    global: darkgreen
+    global: '#a7e22e'
+  colors.statusbar.insert.fg:
+    global: '#121212'
   colors.statusbar.normal.bg:
     global: '#121212'
+  colors.statusbar.normal.fg:
+    global: '#d0d0d0'
+  colors.statusbar.passthrough.bg:
+    global: '#66d9ee'
+  colors.statusbar.passthrough.fg:
+    global: '#121212'
+  colors.statusbar.url.error.fg:
+    global: '#fa2772'
+  colors.statusbar.url.fg:
+    global: '#d0d0d0'
+  colors.statusbar.url.hover.fg:
+    global: '#66efd5'
+  colors.statusbar.url.success.http.fg:
+    global: '#d0d0d0'
+  colors.statusbar.url.success.https.fg:
+    global: '#a7e22e'
   colors.tabs.bar.bg:
     global: '#121212'
   colors.tabs.even.bg:
     global: '#121212'
   colors.tabs.even.fg:
-    global: white
+    global: '#d0d0d0'
   colors.tabs.indicator.error:
-    global: '#ff0000'
-  colors.tabs.indicator.start:
-    global: '#0000aa'
+    global: '#fa2772'
   colors.tabs.indicator.stop:
-    global: '#00aa00'
-  colors.tabs.indicator.system:
-    global: rgb
+    global: '#a7e22e'
   colors.tabs.odd.bg:
     global: '#121212'
-  colors.tabs.pinned.even.bg:
-    global: darkseagreen
-  colors.tabs.pinned.selected.odd.bg:
-    global: black
-  colors.tabs.pinned.selected.odd.fg:
-    global: white
+  colors.tabs.odd.fg:
+    global: '#d0d0d0'
   colors.tabs.selected.even.bg:
     global: '#66efd5'
   colors.tabs.selected.even.fg:
-    global: black
+    global: '#121212'
   colors.tabs.selected.odd.bg:
     global: '#66efd5'
   colors.tabs.selected.odd.fg:
-    global: black
+    global: '#121212'
   colors.webpage.bg:
     global: '#121212'
-  colors.webpage.darkmode.algorithm:
-    global: lightness-cielab
   colors.webpage.darkmode.enabled:
     global: true
   colors.webpage.darkmode.policy.images:
     global: never
+  colors.webpage.darkmode.policy.page:
+    global: always
   content.autoplay:
     global: false
   content.blocking.enabled:
     global: true
   content.blocking.method:
     global: both
+  content.headers.user_agent:
+    global: Mozilla/5.0 ({os_info}) AppleWebKit/{webkit_version} (KHTML, like Gecko)
+      {qt_key}/{qt_version} {upstream_browser_key}/{upstream_browser_version} Safari/{webkit_version}
   content.javascript.can_access_clipboard:
     global: true
   content.notifications.enabled:
-    https://lichess.org: true
     https://mail.tutanota.com: true
+  content.plugins:
+    global: true
   content.register_protocol_handler:
     https://mail.tutanota.com#url=%25s: true
+  downloads.remove_finished:
+    global: 60
   editor.command:
     global:
     - kitty
@@ -149,6 +234,6 @@ settings:
   tabs.new_position.unrelated:
     global: next
   window.transparent:
-    global: false
+    global: true
   zoom.default:
     global: 150%
