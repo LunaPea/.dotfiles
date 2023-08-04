@@ -36,6 +36,8 @@ polybar default_laptop &
 polybar defaultext &
 
 xset r rate 300 100
+xset -dpms
+xset s off
 tset      -dpms s off
 setxkbmap -layout pl
 hsetroot  -solid '#121212'
