@@ -1,3 +1,4 @@
-mpv/watch_later/*
+mpv/watch_later
 qutebrowser/quickmarks
 qutebrowser/bookmarks
+helix/runtime
