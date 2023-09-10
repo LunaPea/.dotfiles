@@ -179,6 +179,14 @@ settings:
     - filesystem
   content.autoplay:
     global: false
+  content.blocking.adblock.lists:
+    global:
+    - https://easylist.to/easylist/easylist.txt
+    - https://easylist.to/easylist/easyprivacy.txt
+    - https://easylist-downloads.adblockplus.org/easylistdutch.txt
+    - https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+    - https://www.i-dont-care-about-cookies.eu/abp/
+    - https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
   content.blocking.enabled:
     global: true
   content.blocking.method:
@@ -197,6 +205,7 @@ settings:
   content.plugins:
     global: true
   content.register_protocol_handler:
+    https://mail.google.com?extsrc=mailto&url=%25s: false
     https://mail.tutanota.com#url=%25s: true
   downloads.remove_finished:
     global: 60
@@ -228,10 +237,6 @@ settings:
     global: '1px solid #505050'
   hints.radius:
     global: 0
-  qt.chromium.process_model:
-    global: single-process
-  qt.highdpi:
-    global: false
   scrolling.smooth:
     global: true
   spellcheck.languages:
@@ -248,7 +253,8 @@ settings:
     - progress
   tabs.new_position.unrelated:
     global: next
-  window.transparent:
-    global: true
+  url.searchengines:
+    global:
+      DEFAULT: https://search.brave.com/search?q={}
   zoom.default:
-    global: 150%
+    global: 125%
