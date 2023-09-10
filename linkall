@@ -13,5 +13,5 @@ ln -s ~/.dotfiles/zathura ~/.config/
 ln -s ~/.dotfiles/mpv ~/.config/
 ln -s ~/.dotfiles/kitty ~/.config/
 ln -s ~/.dotfiles/qutebrowser ~/.config/
-ln -s ~/.dotfiles/picom ~/.config/picom
+ln -s ~/.dotfiles/picom ~/.config/
 ln -s ~/.dotfiles/.xsetrate.sh ~/
