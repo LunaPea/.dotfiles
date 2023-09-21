@@ -5,6 +5,7 @@
 	export DISPLAY=":0"
 	export XAUTHORITY="/home/wera/.Xauthority"
 	xset r rate 300 100
+	setxkbmap -layout pl
 } &
 
 # cat /etc/udev/rules.d/00-keyboard.rules
