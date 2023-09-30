@@ -26,6 +26,9 @@ super + t; super + s
 super + x; super + c
 	xclip -o -s primary | xclip -i -selection c
 
+super + z
+	boomer
+
 
 #
 # Rofi

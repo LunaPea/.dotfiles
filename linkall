@@ -15,3 +15,4 @@ ln -s ~/.dotfiles/kitty ~/.config/
 ln -s ~/.dotfiles/qutebrowser ~/.config/
 ln -s ~/.dotfiles/picom ~/.config/
 ln -s ~/.dotfiles/.xsetrate.sh ~/
+ln -s ~/.dotfiles/boomer ~/.config/
