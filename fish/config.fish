@@ -19,6 +19,19 @@ set fish_greeting
 # The bindings for !!
 bind ! __history_previous_command
 
+function mkcd -d "Create a directory and cd into it"
+    command mkdir $argv
+    if test $status = 0
+        switch $argv[(count $argv)]
+            case '-*'
+
+            case '*'
+                cd $argv[(count $argv)]
+                return
+        end
+    end
+end
+
 function __history_previous_command
   switch (commandline -t)
   case "!"
