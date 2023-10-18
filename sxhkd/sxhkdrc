@@ -94,6 +94,9 @@ super + x; super + k
 super + r; super + t
 	kitty fish
 
+super + r; super + e
+	emacs
+
 # Rofi: launch menu
 super + r; super + r
 	rofi drun -show drun -show-icons
