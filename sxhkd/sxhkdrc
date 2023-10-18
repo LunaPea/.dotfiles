@@ -254,22 +254,22 @@ XF86MonBrightnessDown
 # pc:
 
 super + F10
-	sudo ddccontrol -r 0x10 -W +5 dev:/dev/i2c-8
+	sudo ddccontrol -r 0x10 -W +5 dev:/dev/i2c-5
 super + F9
-	sudo ddccontrol -r 0x10 -W -5 dev:/dev/i2c-8
+	sudo ddccontrol -r 0x10 -W -5 dev:/dev/i2c-5
 
 super + shift + F10
-	sudo ddccontrol -r 0x10 -W +10 dev:/dev/i2c-7
+	sudo ddccontrol -r 0x10 -W +10 dev:/dev/i2c-4
 super + shift + F9
-	sudo ddccontrol -r 0x10 -W -10 dev:/dev/i2c-7
+	sudo ddccontrol -r 0x10 -W -10 dev:/dev/i2c-4
 
 super + F11
-	sudo ddccontrol -r 0xe2 -w 5 dev:/dev/i2c-8
+	sudo ddccontrol -r 0xe2 -w 5 dev:/dev/i2c-5
 super + F12
-	sudo ddccontrol -r 0xe2 -w 6 dev:/dev/i2c-8
+	sudo ddccontrol -r 0xe2 -w 6 dev:/dev/i2c-5
 
 super + shift + F11
-	sudo ddccontrol -r 0xe5 -W -1 dev:/dev/i2c-8
+	sudo ddccontrol -r 0xe5 -W -1 dev:/dev/i2c-5
 super + shift + F12
-	sudo ddccontrol -r 0xe5 -W +1 dev:/dev/i2c-8
+	sudo ddccontrol -r 0xe5 -W +1 dev:/dev/i2c-5
 
