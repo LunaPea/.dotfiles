@@ -43,7 +43,6 @@ setxkbmap -layout pl
 hsetroot  -solid '#121212'
 setxkbmap -option caps:super
 xsetroot  -cursor_name left_ptr
-pgrep -f "xcape -e Super_L Escape" || xcape -e 'Super_L=Escape' # when super pressed once - act like escape
 pgrep 'sxhkd' || sxhkd &
 pgrep 'unclutter' || unclutter &
 killall btops;        btops &
