@@ -191,22 +191,24 @@ settings:
     global: true
   content.blocking.method:
     global: both
+  content.desktop_capture:
+    https://mozilla.github.io: true
   content.geolocation:
     global: true
     https://education.github.com: true
-  content.headers.user_agent:
-    global: Mozilla/5.0 ({os_info}) AppleWebKit/{webkit_version} (KHTML, like Gecko)
-      {qt_key}/{qt_version} {upstream_browser_key}/{upstream_browser_version} Safari/{webkit_version}
   content.javascript.clipboard:
     global: access
   content.notifications.enabled:
     https://mail.tutanota.com: true
+    https://www.tiktok.com: false
     https://www.youtube.com: true
   content.plugins:
     global: true
   content.register_protocol_handler:
     https://mail.google.com?extsrc=mailto&url=%25s: false
     https://mail.tutanota.com#url=%25s: true
+  content.user_stylesheets:
+    global: stylesheets/wiki.css
   downloads.remove_finished:
     global: 60
   editor.command:
@@ -218,25 +220,29 @@ settings:
     global:
     - sh
     - -c
-    - bspc rule -a \* -o state=fullscreen && kitty ranger --choosedir={}
+    - kitty ranger --choosedir={}
   fileselect.handler:
     global: external
   fileselect.multiple_files.command:
     global:
     - sh
     - -c
-    - bspc rule -a \* -o state=fullscreen && kitty ranger --choosefiles={}
+    - kitty ranger --choosefiles={}
   fileselect.single_file.command:
     global:
     - sh
     - -c
-    - bspc rule -a \* -o state=fullscreen && kitty ranger --choosefile={}
+    - kitty ranger --choosefile={}
   fonts.default_size:
     global: 11pt
   hints.border:
     global: '1px solid #505050'
   hints.radius:
     global: 0
+  qt.force_platform:
+    global: xcb
+  qt.force_platformtheme:
+    global: gtk3
   scrolling.smooth:
     global: true
   spellcheck.languages:
@@ -255,6 +261,6 @@ settings:
     global: next
   url.searchengines:
     global:
-      DEFAULT: https://search.brave.com/search?q={}
+      DEFAULT: https://duckduckgo.com/?q={}
   zoom.default:
     global: 125%
