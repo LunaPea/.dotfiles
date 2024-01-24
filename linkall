@@ -16,3 +16,7 @@ ln -s ~/.dotfiles/qutebrowser ~/.config/
 ln -s ~/.dotfiles/picom ~/.config/
 ln -s ~/.dotfiles/.xsetrate.sh ~/
 ln -s ~/.dotfiles/boomer ~/.config/
+ln -s ~/.dotfiles/helix ~/.config/
+ln -s ~/.dotfiles/waybar ~/.config/
+ln -s ~/.dotfiles/hypr ~/.config/
+ln -s ~/.dotfiles/nvim ~/.config/

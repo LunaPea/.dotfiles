@@ -1,0 +1,53 @@
+version = "1.1.12"
+
+[format]
+dedup = true
+delim = "<span size='1000'> </span>"
+
+workspace = "{name}<span size='15000'>{clients}</span>"
+workspace_empty = "{name}<span size='15000'></span>"
+
+client_fullscreen = "{icon}"
+client_dup = "{client}<span size='12000'>{counter_sup}</span>"
+
+[class]
+DEFAULT = ""
+"(?i)firefox" = "<span color='#EE5121'></span>"
+factorio = ""
+Lutris = ""
+kitty = "<span color='#8FC029'></span>"
+discord = "<span color='#5865F2'>󰙯</span>"
+chatterino = ""
+qutebrowser = "<span color='#5285E6'>󰖟</span>"
+com-azefsw-audioconnect-desktop-app-MainKt = "<span color='#29B6F6'>󱝉</span>"
+chromium = ""
+code-oss = ""
+obsidian = ""
+krita = ""
+mpv = ""
+zathura = ""
+pavucontrol = ""
+Spotify = "<span color='#21D25A'></span>"
+"(?i)steam" = "<span color='#2980B9'>󰓓</span>"
+
+[class_active]
+DEFAULT = "*{icon}*"
+
+[title_in_class."(?i)kitty"]
+"(?i)aria2c" = ""
+"(?i)ranger" = ""
+"(?i)nvim" = "<span color='#84BA63'></span>"
+
+[title_in_class."qutebrowser"]
+"(?i)twitch" = "<span color='#BD69FF'></span>"
+"(?i)YouTube" = "<span color='#FF1000'>󰗃</span>"
+
+[workspaces_name] # hack for workspaces that don't differ in name being recognised as one when not using workspace numbers
+1 = "⁡"
+2 = "⁢"
+3 = "⁣"
+4 = "⁤"
+5 = "⁥"
+6 = "⁦"
+7 = "⁧"
+8 = "⁨"
