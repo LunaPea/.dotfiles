@@ -1,0 +1,16 @@
+return {
+	"https://git.sr.ht/~whynothugo/lsp_lines.nvim",
+	config = function()
+		toggle = function()
+			require("lsp_lines").toggle()
+			vim.diagnostic.config({
+				virtual_text = not vim.diagnostic.config().virtual_text,
+			})
+		end
+		require("lsp_lines").setup()
+		vim.diagnostic.config({
+			virtual_text = false,
+		})
+		vim.keymap.set("", "<Leader>l", toggle, { noremap = true, silent = true, desc = "Toggle lsp_lines" })
+	end,
+}
