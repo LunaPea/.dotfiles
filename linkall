@@ -20,3 +20,6 @@ ln -s ~/.dotfiles/helix ~/.config/
 ln -s ~/.dotfiles/waybar ~/.config/
 ln -s ~/.dotfiles/hypr ~/.config/
 ln -s ~/.dotfiles/nvim ~/.config/
+ln -s ~/.dotfiles/mako ~/.config/
+ln -s ~/.dotfiles/neofetch ~/.config/
+ln -s ~/.dotfiles/bacon ~/.config/
