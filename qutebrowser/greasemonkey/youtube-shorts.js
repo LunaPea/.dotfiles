@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         youtube to invidious
+// @name         youtube shorts to normal videos
 // @version      0.1
 // @description  none
 // @author       WeraPea
