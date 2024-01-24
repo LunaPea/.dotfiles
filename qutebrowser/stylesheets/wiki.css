@@ -1,0 +1,4 @@
+img[src*="wikimedia"][src$=".svg.png"] {
+  border-color: #eee !important;
+  background-color: #888 !important;
+}
